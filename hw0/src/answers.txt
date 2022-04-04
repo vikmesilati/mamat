@@ -1,0 +1,30 @@
+Question 2 part 1:
+    a. There are 17 lists that answer the request, two of them are:
+        1.[1.22 2.75 1.85 5.97 6.47 2.16 4.57 5.18 3.16 6.45 2.31 0.98 0.87]
+        2.[1.22 2.75 1.85 5.97 2.16 4.57 5.18 3.16 6.71 2.31 6.21 0.98 0.87]
+
+    b. There is 1 list containing 14 items, but there is no list containing 15
+    items, because the sum of the 15 items with the lowest price is bigger than
+    Maya's amount of money
+
+    c. If we could every item more than once, we would remove the condition that
+    checks if we already used the current item in the recursion. The program will
+    take a lot more time to run because we made the number of options to check way
+    bigger.
+
+Question 2 part 2;
+
+    a. For the case of stopping after 100 solutions, the time command returned
+    a value of 0 seconds every time, because the program ended very fast and
+    the scope of the time function is only to 2 decimal points. for the 1000
+    case, the time function returned 0.03 seconds almost every time, also 
+    ends pretty fast and doesnt required much of resources from the machine.
+    But for the 10000 case, we got results ranging between 0.25 to 0.35 
+    seconds, because the program required a lot of resources from the computer,
+    so the time was changing from run to run, depending on the available 
+    resources that are available at that second.
+
+    b. We think that the more toys there are, the shorter the programs will run,
+    because it has now a lot more solutions to choose from, so finding 10000
+    solution will be faster for the computer, and less recursion calls will be
+    required.
