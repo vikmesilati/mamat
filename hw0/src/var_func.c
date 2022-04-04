@@ -5,6 +5,8 @@
 
 #define MIN_ELEMENT 1
 #define MAX_ELEMENT 1000000
+
+// function will sum all its arguments
 int  sum (int count,...) {
     int sum = 0;
 
@@ -20,7 +22,7 @@ int  sum (int count,...) {
 
     return sum;
 }
-
+// function will find min of all its arguments
 int min(int count,...) {
     int min = MAX_ELEMENT;
 
@@ -39,7 +41,7 @@ int min(int count,...) {
 
     return min;
 }
-
+// fucntion will find max of all its arguments
 int max(int count,...) {
     int max = MIN_ELEMENT;
 
