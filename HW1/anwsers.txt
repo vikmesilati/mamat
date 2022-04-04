@@ -1,0 +1,10 @@
+a) It will take a lot of time; we are going to search and count for specific names in strings, besides if there were a lot of websites, it will be difficult to recognize already searched website.
+ 
+b)It is very effecive to use bash language, especially that we noticed that there are a large number of repetition of both names and a lot of websites to search. 
+We can use this method, for example, 
+1)in finding specified endangered animals names in diffrent articales in Animal Planet website.
+2)in finding specified books in differnet libraries.
+
+c)We would have to run the code manully exaclly every hour.
+We use the cron.hourly folder under the etc folder, we copy the script there and it will run hourly.
+We would sort the articales using -u flag.
