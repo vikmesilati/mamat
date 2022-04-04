@@ -5,17 +5,18 @@
 
 #define HIST_LEN 10
 #define STR_LEN 1000
+// this function prints the number of times a number is in a string
 int main() {
-    char str1[STR_LEN];
+    char input[STR_LEN];
     int histogram[HIST_LEN];
 
     for(int i = 0; i < HIST_LEN; i++){
         histogram[i] = 0;
     }
-    scanf("%s", str1);
-    for(int i = 0; i < strlen(str1); i++){
-        if((str1[i] >= '0') && (str1[i] <= '9')){
-            histogram[str1[i]-'0']++;
+    scanf("%s", input);
+    for(int i = 0; i < strlen(input); i++){
+        if((input[i] >= '0') && (input[i] <= '9')){
+            histogram[input[i]-'0']++;
         }
     }
     for(int i = 0; i < HIST_LEN; i++){
