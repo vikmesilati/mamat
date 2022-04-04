@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -f results.csv
+
 wget -q -O 3082 https://www.ynetnews.com/category/3082
 
 cat 3082 | grep -Eo "https://www.ynetnews.com/article/[a-zA-Z0-9]*" | sort -u > articles.txt 
