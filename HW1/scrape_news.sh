@@ -15,4 +15,6 @@ if [[ $x == "0" && $y == "0" ]]; then
 else
 	echo "Bennett, $x,Netanyahu, $y" >> results.csv
 fi
-done 
+done
+
+rm 3082 articles.txt result.txt bennet.txt netanyahu.txt
