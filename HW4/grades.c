@@ -1,5 +1,7 @@
 #include "grades.h"
 #include "linked-list.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 typedef struct { 
     char *name;
@@ -15,29 +17,28 @@ typedef struct {
 struct grades* grades_init(){
     element_clone_t elem_clone;
     element_destroy_t elem_destroy;
-    struct grades *grades = (struct grades*)malloc(sizeof(grades));
-    grades = (struct grades*)list_init(elem_clone,elem_destroy);
+    struct grades *grades = (struct grades*)list_init(elem_clone,elem_destroy);
     return grades;
 }
 
 void grades_destroy(struct grades *grades){
-    list_destroy(grades);
+    list_destroy((struct list*)grades);
 }
 
 int grades_add_student(struct grades *grades, const char *name, int id){
     if(!grades){
         return -1;
     }
-    struct iterator* it = list_begin(grades);
+    struct iterator* it = list_begin((struct list*)grades);
     student *new;
-    new->name = name;
+    new->name = (char*)name;
     new->id = id;
     element_clone_t elem_clone;
     element_destroy_t elem_destroy;
     new->studGrades = list_init(elem_clone,elem_destroy);
     //check if list is empty
     if(it == NULL){
-        return list_push_front(grades,new);
+        return list_push_front((struct list*)grades,new);
     }
     while(it != NULL){
         student *current = list_get(it);
@@ -46,7 +47,7 @@ int grades_add_student(struct grades *grades, const char *name, int id){
         }
         it = list_next(it);
     }
-    return list_push_back(grades,new);
+    return list_push_back((struct list*)grades,new);
 }
 
 int grades_add_grade(struct grades *grades,
@@ -57,10 +58,10 @@ int grades_add_grade(struct grades *grades,
         return -1;
     }
     gradeStud *newGrade;
-    newGrade->name = name;
+    newGrade->name = (char*)name;
     newGrade->grade = grade;
     struct iterator *itStud, *itGrade;
-    itStud = list_begin(grades);
+    itStud = list_begin((struct list*)grades);
     while(itStud != NULL){
         student *currentStud = list_get(itStud);
         if(currentStud->id = id){
@@ -84,7 +85,7 @@ float grades_calc_avg(struct grades *grades, int id, char **out){
         return -1;
     }
     struct iterator *itStud, *itGrade;
-    itStud = list_begin(grades);
+    itStud = list_begin((struct list*)grades);
     while(itStud != NULL){
         student *currentStud = list_get(itStud);
         if(currentStud->id = id){
@@ -115,7 +116,7 @@ int grades_print_student(struct grades *grades, int id){
         return -1;
     }
     struct iterator *itStud, *itGrade;
-    itStud = list_begin(grades);
+    itStud = list_begin((struct list*)grades);
     while(itStud != NULL){
         student *currentStud = list_get(itStud);
         if(currentStud->id = id){
@@ -142,7 +143,7 @@ int grades_print_all(struct grades *grades){
         return -1;
     }
     struct iterator *itStud, *itGrade;
-    itStud = list_begin(grades);
+    itStud = list_begin((struct list*)grades);
     while(itStud != NULL){
         student *currentStud = list_get(itStud);
         printf("%s %d: ",currentStud->name,currentStud->id);
