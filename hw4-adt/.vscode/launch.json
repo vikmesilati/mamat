@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": true,
-      "cwd": "/Users/vikim/Downloads/hw4-adt",
+      "cwd": "/Users/vikim/Desktop/mamat/hw4-adt",
       "environment": [],
-      "program": "/Users/vikim/Downloads/hw4-adt/build/Debug/outDebug",
+      "program": "/Users/vikim/Desktop/mamat/hw4-adt/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "lldb",
       "externalConsole": true
