@@ -15,7 +15,8 @@ typedef struct {
 struct grades* grades_init(){
     element_clone_t elem_clone;
     element_destroy_t elem_destroy;
-    struct grades *grades = (struct grades*)list_init(elem_clone,elem_destroy);
+    struct grades *grades = (struct grades*)malloc(sizeof(grades));
+    grades = (struct grades*)list_init(elem_clone,elem_destroy);
     return grades;
 }
 
