@@ -4,21 +4,29 @@
 #include <stdio.h>
 #include <string.h>
 
+// Define the student struct for inserting to the grade struct
 typedef struct { 
     char *name;
     int id;
     struct list *studGrades;
 } student;
 
+// Define the course struct for inserting to the student grades struct
 typedef struct {
     char *name;
     int grade;
 } course;
 
+// Define the grades strcut from grades.h to use in main.c
 struct grades{
     struct list* students;
 };
 
+/**
+ * @brief Clones a course element to the *output
+ * @returns A cloned element to *output, returns 0 on success
+ * @note User function defined in linked-list.h
+ */
 int element_clone_course(void *element, void **output){
     course* given = (course*)element;
     course* new = (course*)malloc(sizeof(course));
@@ -31,6 +39,10 @@ int element_clone_course(void *element, void **output){
     return 0;
 }
 
+/**
+ * @brief Destroys a course element
+ * @note always successdes
+ */
 void element_destroy_course(void *element){
     course* destroy = (course*)element;
     free(destroy->name);
