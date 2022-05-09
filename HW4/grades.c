@@ -32,7 +32,10 @@ int element_clone_course(void *element, void **output){
     course* new = (course*)malloc(sizeof(course));
     if(new == NULL){return -1;}
     new->name = malloc(sizeof(char)*(strlen(given->name)+1));
-    if(new->name == NULL){return -1;}
+    if(new->name == NULL){
+        free(new);
+        return -1;
+    }
     strcpy(new->name,given->name);
     new->grade = given->grade;
     *output = new;
@@ -63,16 +66,29 @@ int element_clone_student(void *element, void **output){
     student* new = (student*)malloc(sizeof(student));
     if(new == NULL){return -1;}
     new->name = malloc(sizeof(char)*(strlen(given->name)+1));
-    if(new->name == NULL){return -1;}
+    if(new->name == NULL){
+        free(new);
+        return -1;
+    }
     strcpy(new->name,given->name);
     new->id = given->id;
     new->studGrades = (struct list*)malloc(sizeof(struct list*));
+    if(!new->studGrades){
+        free(new->name);
+        free(new);
+        return -1;
+    }
     new->studGrades = list_init(elem_clone,elem_destroy);
     struct iterator* it = list_begin(given->studGrades);
     while(it != NULL){
         course* temp = list_get(it);
         int result = list_push_back(new->studGrades,temp);
-        if(result != 0){return -1;}
+        if(result != 0){
+            list_destroy(new->studGrades);
+            free(new->name);
+            free(new);
+            return -1;
+        }
         it = list_next(it);
     }
     *output = new;
@@ -91,8 +107,7 @@ struct grades* grades_init(){
 }
 
 void grades_destroy(struct grades *grades){
-
-    list_destroy((struct list*)grades);
+    list_destroy(grades->students);
 }
 
 int grades_add_student(struct grades *grades, const char *name, int id){
@@ -103,7 +118,12 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     element_destroy_t elem_destroy = &element_destroy_course;
     struct iterator* it = list_begin(grades->students);
     student *new = (student*)malloc(sizeof(student));
+    if(!new){return -1;}
     new->name = (char*)malloc(sizeof(name));
+    if(!new->name){
+        free(new);
+        return -1;
+    }
     strcpy(new->name,(char*)name);
     new->id = id;
     //new->studGrades = (struct list*)malloc(sizeof(new->studGrades));
@@ -115,6 +135,9 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     while(it != NULL){
         student *current = list_get(it);
         if(current->id == id){
+            list_destroy(new->studGrades);
+            free(new->name);
+            free(new);
             return -1;
         }
         it = list_next(it);
@@ -130,7 +153,12 @@ int grades_add_grade(struct grades *grades,
         return -1;
     }
     course *newGrade = (course*)malloc(sizeof(course));
+    if(!newGrade){return -1;}
     newGrade->name = (char*)malloc(sizeof(name));
+    if(!newGrade->name){
+        free(newGrade);
+        return -1;
+    }
     strcpy(newGrade->name,(char*)name);
     newGrade->grade = grade;
     struct iterator *itStud, *itGrade;
@@ -142,6 +170,8 @@ int grades_add_grade(struct grades *grades,
             while(itGrade != NULL){
                 course *currentGrade = list_get(itGrade);
                 if(strcmp(currentGrade->name,name) == 0){
+                    free(newGrade->name);
+                    free(newGrade);
                     return -1;
                 }
                 itGrade = list_next(itGrade);
@@ -150,6 +180,8 @@ int grades_add_grade(struct grades *grades,
         }
         itStud = list_next(itStud);
     }
+    free(newGrade->name);
+    free(newGrade);
     return -1;
 }
 
