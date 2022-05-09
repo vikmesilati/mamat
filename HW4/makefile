@@ -12,7 +12,7 @@ all:  libgrades.so
 libgrades.so: grades.o
 	$(CCLINK) -shared grades.o -o libgrades.so -llinked-list -L.
 grades.o: grades.c grades.h linked-list.h
-	$(CC) -c -fpic grades.c
+	$(CC) -c -g -fpic grades.c
 
 #clean objects
 clean:
