@@ -44,7 +44,7 @@ int element_clone_course(void *element, void **output){
 
 /**
  * @brief Destroys a course element
- * @note always successdes
+ * @note always succeedes
  */
 void element_destroy_course(void *element){
     course* destroy = (course*)element;
@@ -52,6 +52,10 @@ void element_destroy_course(void *element){
     free(element);
 }
 
+/**
+ * @brief Destroys a student element
+ * @note always succeedes
+ */
 void element_destroy_student(void *element){
     student* destroy = (student*)element;
     list_destroy(destroy->studGrades);
@@ -59,6 +63,11 @@ void element_destroy_student(void *element){
     free(destroy);
 }
 
+/**
+ * @brief Clones a student element to the *output
+ * @returns A cloned element to *output, returns 0 on success
+ * @note User function defined in linked-list.h
+ */
 int element_clone_student(void *element, void **output){
     element_clone_t elem_clone = &element_clone_course;
     element_destroy_t elem_destroy = &element_destroy_course;
@@ -97,7 +106,10 @@ int element_clone_student(void *element, void **output){
 }
 
 
-
+/**
+ * @brief initiates a grades struct 
+ * @returns A pointer to the new grades struct
+ */
 struct grades* grades_init(){
     element_clone_t elem_clone = &element_clone_student;
     element_destroy_t elem_destroy = &element_destroy_student;
@@ -107,10 +119,18 @@ struct grades* grades_init(){
     return grades;
 }
 
+/**
+ * @brief destroyes a grades struct
+ * @note always succeedes
+ */
 void grades_destroy(struct grades *grades){
     list_destroy(grades->students);
 }
 
+/**
+ * @brief Adds a student to the grades list
+ * @returns 0 on success, -1 otherwise
+ */
 int grades_add_student(struct grades *grades, const char *name, int id){
     if(!grades){
         return -1;
@@ -145,6 +165,10 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     return list_push_back(grades->students,new);
 }
 
+/**
+ * @brief Adds a course with name,grade to the student with id
+ * @returns 0 on success, -1 otherwise
+ */
 int grades_add_grade(struct grades *grades,
                      const char *name,
                      int id,
@@ -185,6 +209,10 @@ int grades_add_grade(struct grades *grades,
     return -1;
 }
 
+/**
+ * @brief Calculates the avg of the student with id 
+ * @returns The avg of students grades, his name in *out
+ */
 float grades_calc_avg(struct grades *grades, int id, char **out){
     if(!grades){
         return -1;
@@ -216,6 +244,10 @@ float grades_calc_avg(struct grades *grades, int id, char **out){
     return -1;
 }
 
+/**
+ * @brief prints a student with id and all his courses
+ * @returns 0 on success, -1 otherwise
+ */
 int grades_print_student(struct grades *grades, int id){
      if(!grades){
         return -1;
@@ -244,6 +276,11 @@ int grades_print_student(struct grades *grades, int id){
     return -1;
 }
 
+/**
+ * @brief Prints all the students and their grades by order
+ * @returns 0 on success, -1 otherwise
+ * @note User function defined in linked-list.h
+ */
 int grades_print_all(struct grades *grades){
     if(!grades){
         return -1;
