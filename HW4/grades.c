@@ -74,6 +74,7 @@ int element_clone_student(void *element, void **output){
     new->id = given->id;
     new->studGrades = (struct list*)malloc(sizeof(new->studGrades));
     if(!new->studGrades){
+        list_destroy(new->studGrades);
         free(new->name);
         free(new);
         return -1;
