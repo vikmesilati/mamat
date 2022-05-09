@@ -72,7 +72,7 @@ int element_clone_student(void *element, void **output){
     }
     strcpy(new->name,given->name);
     new->id = given->id;
-    new->studGrades = malloc(sizeof(new->studGrades));
+    new->studGrades = (struct list*)malloc(sizeof(new->studGrades));
     if(!new->studGrades){
         list_destroy(new->studGrades);
         free(new->name);
