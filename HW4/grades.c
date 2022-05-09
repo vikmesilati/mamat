@@ -117,7 +117,7 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     element_clone_t elem_clone = &element_clone_course;
     element_destroy_t elem_destroy = &element_destroy_course;
     struct iterator* it = list_begin(grades->students);
-    student *new = (student*)malloc(sizeof(student));
+    student *new = (student*)malloc(sizeof(new));
     if(!new){return -1;}
     new->name = (char*)malloc(sizeof(name));
     if(!new->name){
