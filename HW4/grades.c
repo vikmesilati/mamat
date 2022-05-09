@@ -126,8 +126,7 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     }
     strcpy(new->name,(char*)name);
     new->id = id;
-    //new->studGrades = (struct list*)malloc(sizeof(new->studGrades));
-    new->studGrades = (struct list*)list_init(elem_clone,elem_destroy);
+    new->studGrades = list_init(elem_clone,elem_destroy);
     //check if list is empty
     if(it == NULL){
         return list_push_back(grades->students,new);
