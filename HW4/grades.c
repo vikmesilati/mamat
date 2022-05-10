@@ -204,7 +204,9 @@ int grades_add_grade(struct grades *grades,
                 }
                 itGrade = list_next(itGrade);
             }
-            return list_push_back(currentStud->studGrades,newGrade);
+            int result = list_push_back(currentStud->studGrades,newGrade);
+            free(newGrade);
+            return result;
         }
         itStud = list_next(itStud);
     }
