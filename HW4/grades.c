@@ -150,7 +150,9 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     new->studGrades = list_init(elem_clone,elem_destroy);
     //check if list is empty
     if(it == NULL){
-        return list_push_back(grades->students,new);
+        int result = list_push_back(grades->students,new);
+        free(new);
+        return result;
     }
     while(it != NULL){
         student *current = list_get(it);
@@ -162,7 +164,9 @@ int grades_add_student(struct grades *grades, const char *name, int id){
         }
         it = list_next(it);
     }
-    return list_push_back(grades->students,new);
+    int result = list_push_back(grades->students,new);
+    free(new);
+    return result;
 }
 
 /**
