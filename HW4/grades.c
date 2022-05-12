@@ -32,10 +32,13 @@ struct grades{
 int element_clone_course(void *element, void **output){
     course* given = (course*)element;
     course* new = (course*)malloc(sizeof(course));
-    if(new == NULL){free(new); return -1;}////////
+    if(new == NULL){
+        free(new);
+        return -1;
+    }////////
     new->name = malloc(sizeof(char)*(strlen(given->name)+1));
     if(new->name == NULL){
-	free(new->name);////////////
+	    free(new->name);
         free(new);
         return -1;
     }
@@ -76,29 +79,25 @@ int element_clone_student(void *element, void **output){
     element_destroy_t elem_destroy = &element_destroy_course;
     student* given = (student*)element;
     student* new = (student*)malloc(sizeof(student));
-    if(new == NULL){free(new); return -1;}///////
+    if(new == NULL){
+        free(new); 
+        return -1;
+    }///////
     new->name = (char*)malloc(sizeof(char)*(strlen(given->name)+1));
     if(new->name == NULL){
-	free(new->name);//////////////////
+	free(new->name);
         free(new);
         return -1;
     }
     strcpy(new->name,given->name);
     new->id = given->id;
-  //  new->studGrades = (struct list *)malloc(sizeof(new->studGrades));
-  //  if(!new->studGrades){
-  //      list_destroy(new->studGrades);///////////////
-  //      free(new->name);
-  //      free(new);
-    //    return -1;
-   // }
     new->studGrades = list_init(elem_clone,elem_destroy);
     struct iterator* it = list_begin(given->studGrades);
     while(it != NULL){
         course* temp = list_get(it);
         int result = list_push_back(new->studGrades,temp);
         if(result != 0){
-            list_destroy(new->studGrades);////////////
+            list_destroy(new->studGrades);
             free(new->name);
             free(new);
             return -1;
@@ -116,8 +115,11 @@ int element_clone_student(void *element, void **output){
 struct grades* grades_init(){
     element_clone_t elem_clone = &element_clone_student;
     element_destroy_t elem_destroy = &element_destroy_student;
-    struct grades *grades = (struct grades*)malloc(sizeof(struct grades));///
-    if(grades == NULL){free(grades); return NULL;}///////////
+    struct grades *grades = (struct grades*)malloc(sizeof(struct grades));
+    if(grades == NULL){
+        free(grades);
+        return NULL;
+    }
     grades->students = list_init(elem_clone,elem_destroy);
     return grades;
 }
@@ -128,7 +130,7 @@ struct grades* grades_init(){
  */
 void grades_destroy(struct grades *grades){
     list_destroy(grades->students);
-    free(grades);//////
+    free(grades);
 }
 
 
@@ -140,46 +142,39 @@ int grades_add_student(struct grades *grades, const char *name, int id){
     if(!grades){
         return -1;
     }
-    int result;///////////////
+    int result;
     element_clone_t elem_clone = &element_clone_course;
     element_destroy_t elem_destroy = &element_destroy_course;
     struct iterator* it = list_begin(grades->students);
-    student *new = (student*)malloc(sizeof(student));///////
-    if(!new){free(new); return -1;}////////////
-    new->name = (char*)malloc(sizeof(name));////////
-    if(!new->name){
-//	free(new->name);/////////////
-  //     free(new);
-  element_destroy_student(new);///////////////
+    student *new = (student*)malloc(sizeof(student));
+    if(!new){
+        free(new);
         return -1;
     }
-    strcpy(new->name,name);//////////
+    new->name = (char*)malloc(sizeof(name));
+    if(!new->name){
+        element_destroy_student(new);
+        return -1;
+    }
+    strcpy(new->name,name);
     new->id = id;
-   // printf("%d\n", new->id);////////////
     new->studGrades = list_init(elem_clone,elem_destroy);
     //check if list is empty
     if(it == NULL){
-        result = list_push_back(grades->students,new);/////
-        element_destroy_student(new);///////
-/////	free(new->name);//////////
-////	free(new);
+        result = list_push_back(grades->students,new);
+        element_destroy_student(new);
         return result;
     }
     while(it != NULL){
         student *current = list_get(it);
         if(current->id == id){
-	    element_destroy_student(new);/////////
-           /// list_destroy(new->studGrades);
-   ////        free(new->name);
-          ///  free(new);
+	        element_destroy_student(new);
             return -1;
         }
         it = list_next(it);
     }
-    result = list_push_back(grades->students,new);/////////
-  ///  free(new->name);/////////////
-   // free(new);
-   element_destroy_student(new);////////	
+    result = list_push_back(grades->students,new);
+    element_destroy_student(new);	
     return result;
 }
 
@@ -195,12 +190,13 @@ int grades_add_grade(struct grades *grades,
         return -1;
     }
     course *newGrade = (course*)malloc(sizeof(course));
-    if(!newGrade){free(newGrade); return -1;}/////////////
-    newGrade->name = (char*)malloc(sizeof(char)*(strlen(name)+1));///
+    if(!newGrade){
+        free(newGrade);
+        return -1;
+    }
+    newGrade->name = (char*)malloc(sizeof(char)*(strlen(name)+1));
     if(!newGrade->name){
-	//free(newGrade->name);
-        //free(newGrade);
-	element_destroy_course(newGrade);//////
+	    element_destroy_course(newGrade);
         return -1;
     }
     strcpy(newGrade->name,name);
@@ -214,24 +210,18 @@ int grades_add_grade(struct grades *grades,
             while(itGrade != NULL){
                 course *currentGrade = list_get(itGrade);
                 if(strcmp(currentGrade->name,name) == 0){
-                  //  free(newGrade->name);
-                   // free(newGrade);
-		   element_destroy_course(newGrade);////
+		            element_destroy_course(newGrade);
                     return -1;
                 }
                 itGrade = list_next(itGrade);
             }
             int result = list_push_back(currentStud->studGrades,newGrade);
-	   // free(newGrade->name);/////////////////
-           // free(newGrade);
-	   element_destroy_course(newGrade);/////
+	        element_destroy_course(newGrade);
             return result;
         }
         itStud = list_next(itStud);
     }
-   // free(newGrade->name);
-   // free(newGrade);
-   element_destroy_course(newGrade);//////////////
+    element_destroy_course(newGrade);
     return -1;
 }
 
@@ -249,7 +239,9 @@ float grades_calc_avg(struct grades *grades, int id, char **out){
         student *currentStud = (student*)list_get(itStud);
         if(currentStud->id == id){
             *out = malloc(sizeof(char)*(strlen(currentStud->name)+1));
-            if(*out == NULL){return -1;}/////
+            if(*out == NULL){
+                return -1;
+            }
             strcpy(*out, currentStud->name);
             float sum = 0;
             size_t numOfGrades = list_size(currentStud->studGrades);
@@ -267,7 +259,7 @@ float grades_calc_avg(struct grades *grades, int id, char **out){
         }
         itStud = list_next(itStud);
     }
-    *out = NULL;////
+    *out = NULL;
     return -1;
 }
 
