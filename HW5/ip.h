@@ -6,7 +6,6 @@
 
 class Ip : public Field{
 private:
-	String val;
 	String *ip_parts;
 	size_t num_ip_parts;
 	const char *delimiters = "./";
