@@ -5,28 +5,28 @@
 #include "port.h"
 
 //IP Constructor
-PORT::PORT(String val){
-	this.trim();//clean the string
-	this.split(this->port_delimiter, this->port_parts, this->num_port_parts);//array of strings and every string has a number part of IP
+Port::Port(String val):Field(val){
+	this->val.trim();//clean the string
+	this->val.split(this->val.port_delimiter, this->val.port_parts, this->val.num_port_parts);//array of strings and every string has a number part of IP
 }
 
-bool PORT::set_value(String val){
+bool Port::set_value(String val){
 	for(int i=0; i<2; i++){
-		if((this->num_port_parts[i] < 0) || (this->num_port_parts[i] > 65535)){
+		if((this->port_parts[i][0].to_integer() < 0) || (this->num_port_parts[i][0].to_integer() > 65535)){
 			return false;
 		}
 	}
 }
 
-bool PORT:match_value(String value){
+bool Port::match_value(String value){
 	for (int i=0; i< 2; i++){
-		if(!(this->port_parts[i].equals(value))){
+		if(!(this->port_parts[i][0].equals(value))){
 			return false;
 		}
 	}
 	return true;
 }
 
-PORT::~PORT(){
+Port::~Port(){
 	delete[] this->port_parts;
 }

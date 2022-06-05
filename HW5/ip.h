@@ -4,15 +4,16 @@
 #include "field.h"
 #include "string.h"
 
-class IP : public Field{
+class Ip : public Field{
 private:
+	String val;
 	String **ip_parts;
-	int num_ip_parts[5];//4 parts ip and 1 part for mask number
-	const char delimiters[2] = {'.', '/'};
+	size_t num_ip_parts;
+	const char delimiters[3] = {'.', '/', '\0'};
 public:
-	IP(String val);
+	Ip(String val);
 	bool set_value(String val);
 	bool match_value(String value);
-	~IP();
+	~Ip();
 };
 

@@ -4,15 +4,16 @@
 #include "field.h"
 #include "string.h"
 
-class PORT : public Field{
+class Port : public Field{
 private:
+	String val;
 	String **port_parts;
-	int num_port_parts[2];//2 parts port
-	const char port_delimiter[1] = {'-'};
+	size_t num_port_parts;//2 parts port
+	const char port_delimiter[2] = {'-', '\0'};
 public:
-	PORT(String val);
+	Port(String val);
 	bool set_value(String val);
 	bool match_value(String value);
-	~PORT();
+	~Port();
 };
 
