@@ -7,12 +7,12 @@
 //IP Constructor
 Port::Port(String val):Field(val){
 	this->val.trim();//clean the string
-	this->val.split(this->val.port_delimiter, this->val.port_parts, this->val.num_port_parts);//array of strings and every string has a number part of IP
+	this->val.split(this->port_delimiter, &(this->port_parts), &(this->num_port_parts));//array of strings and every string has a number part of IP
 }
 
 bool Port::set_value(String val){
 	for(int i=0; i<2; i++){
-		if((this->port_parts[i][0].to_integer() < 0) || (this->num_port_parts[i][0].to_integer() > 65535)){
+		if((this->port_parts[i].to_integer() < 0) || (this->num_port_parts > 65535)){
 			return false;
 		}
 	}
@@ -20,7 +20,7 @@ bool Port::set_value(String val){
 
 bool Port::match_value(String value){
 	for (int i=0; i< 2; i++){
-		if(!(this->port_parts[i][0].equals(value))){
+		if(!(this->port_parts[i].equals(value))){
 			return false;
 		}
 	}

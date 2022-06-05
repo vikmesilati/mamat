@@ -7,7 +7,7 @@
 class Port : public Field{
 private:
 	String val;
-	String **port_parts;
+	String *port_parts;
 	size_t num_port_parts;//2 parts port
 	const char port_delimiter[2] = {'-', '\0'};
 public:
@@ -17,3 +17,4 @@ public:
 	~Port();
 };
 
+#endif

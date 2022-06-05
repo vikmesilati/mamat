@@ -7,9 +7,9 @@
 class Ip : public Field{
 private:
 	String val;
-	String **ip_parts;
+	String *ip_parts;
 	size_t num_ip_parts;
-	const char delimiters[3] = {'.', '/', '\0'};
+	const char *delimiters = "./";
 public:
 	Ip(String val);
 	bool set_value(String val);
@@ -17,3 +17,4 @@ public:
 	~Ip();
 };
 
+#endif
