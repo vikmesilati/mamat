@@ -8,15 +8,9 @@
 using namespace std;
 
 //IP Constructor
-Ip::Ip(String val):Field(val){
-	val = val.trim();//clean the string
-	val.split(this->delimiters, &(this->ip_parts), &(this->num_ip_parts));//array of strings and every string has a number part of IP
-	for(size_t i = 0; i < this->num_ip_parts; i++){
-		this->ip_parts[i] = this->ip_parts[i].trim();
-	}
-}
+Ip::Ip(String val):Field(val){}
 
-char* Ip::int_to_bit(int num){
+char* Ip::int_to_bit(int num) const{
 	char *out = new char[4];
 	for(int i = 0 ; i < 4 ; i++){
         if(num%2){
@@ -35,6 +29,7 @@ bool Ip::set_value(String val){
 	size_t num;
 	val.trim().split(delimiters,&out,&num);
 	char *rule = new char[4 * (num-2)];
+	memset(rule,0,4*(num-2));
 	if(out[num-1].to_integer() < 0 || out[num-1].to_integer() > 32){//Check the last string 
 		return false;
 	}
@@ -42,29 +37,43 @@ bool Ip::set_value(String val){
 		if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
 			return false;
 		}
-		strcat(rule,int_to_bit(out[i].to_integer()));
+		char* temp = int_to_bit(out[i].trim().to_integer());
+		strcat(rule,temp);
 	}
+	mask = new char[4 * (num-2)];
 	mask_size = out[num-1].to_integer();
 	memcpy(mask,rule,mask_size);
-	mask = rule;
 	delete rule;
+	delete[] out;
 	return true;
 }
 
 bool Ip::match_value(String value) const{
-	int max_care = this->ip_parts[num_ip_parts-1].to_integer();
-	int i = 0;
-	while(max_care>1){
-		if(this->ip_parts[i].equals(value)){
-			max_care/=8;
-			i++;
-			continue;
+	String *out;
+	size_t num;
+	value.trim().split(delimiters,&out,&num);
+	char *val = new char[4 * (num)];
+	memset(val,0,4*num);
+	for(size_t i=0; i < num; i++){//the fifth is mask
+		if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
+			return false;
 		}
-		return false;
+		char* temp = int_to_bit(out[i].trim().to_integer());
+		
+		strcat(val,temp);
+		
 	}
-	return true;
+	char *rule = new char[mask_size+1];
+	memcpy(rule,val,mask_size);
+	String *str_rule = new String(rule);
+	bool res = str_rule->equals(mask);
+	delete str_rule;
+	delete rule;
+	delete[] out;
+	delete[] val;
+	return  res;
+
 }
 
-Ip::~Ip(){
-	delete[] this->ip_parts;
-}
+Ip::~Ip(){}
+

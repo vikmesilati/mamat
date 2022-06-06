@@ -12,10 +12,12 @@ int main(int argc, char **argv){
     //     exit(1);
     // }
     String *src_port = new String("    src-port   =    132.22.22.22/8   ");
-    String *dst_port = new String("dst_port");
+    String *dst_port = new String("132.22.22.21");
     String *src_ip = new String("src-ip");
     String *dst_ip = new String("dst-ip");
     Ip *src = new Ip(*src_port);
-    cout << src->ip_parts[1].data << endl;
+    src->set_value(*src_port);
+    
+    cout << src->match_value(*dst_port);
     return 0;
 }

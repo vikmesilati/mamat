@@ -6,12 +6,10 @@
 
 class Ip : public Field{
 private:
-	String *ip_parts;
-	size_t num_ip_parts;
 	const char *delimiters = "./=";
 	char *mask;
 	int mask_size;
-	char* int_to_bit(int num);
+	char* int_to_bit(int num) const;
 public:
 	Ip(String val);
 	bool set_value(String val);
