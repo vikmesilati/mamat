@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include <regex>
 #include "string.h"
 #include "field.h"
 #include "ip.h"
+
+using namespace std;
 
 //IP Constructor
 Ip::Ip(String val):Field(val){

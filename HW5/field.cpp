@@ -1,8 +1,9 @@
 #include <iostream>
 
-
+#include <regex>
 #include "field.h"
 #include "string.h"
+using namespace std;
 
 //PUBLIC
 //Copy from given Pattern to the private part
