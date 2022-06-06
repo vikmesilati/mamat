@@ -6,8 +6,8 @@
 
 //IP Constructor
 Port::Port(String val):Field(val){
-	this->val.trim();//clean the string
-	this->val.split(this->port_delimiter, &(this->port_parts), &(this->num_port_parts));//array of strings and every string has a number part of IP
+	val.trim();//clean the string
+	val.split(this->port_delimiter, &(this->port_parts), &(this->num_port_parts));//array of strings and every string has a number part of IP
 }
 
 bool Port::set_value(String val){
