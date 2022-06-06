@@ -11,18 +11,10 @@ String::String(){
 }
 
 String::String(const String &str){
-    if (&str == nullptr) {
-        data = new char[1];
-        data[0] = '\0';
-        length = 0;
-    }
- 
-    else {
-        data = new char[str.length + 1];
-        strcpy(data, str.data);
-        data[str.length] = '\0';
-        length = str.length;
-    }
+    data = new char[str.length + 1];
+    strcpy(data, str.data);
+    data[str.length] = '\0';
+    length = str.length;
 }
 
 String::String(const char *str){
@@ -94,10 +86,10 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
     String *arr = new String[size_arr];
     // size = size_arr;
     char *token2;
-    for(int m = 0; m < size_arr ; m++){
+    for(size_t m = 0; m < size_arr ; m++){
         arr[m] = String();
     }
-    int i = 0;
+    size_t i = 0;
     token2 = strtok(temp, delimiters);
     while( token2 != NULL || i < size_arr ) {
         arr[i]=token2;
@@ -113,10 +105,10 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
 
 int String::to_integer() const{
     try{
-        int temp = atoi(this->data);
+        int temp = stoi(this->data);
         return temp;
     }
-    catch(exception err){
+    catch(exception &err){
         return 0;
     }
 }

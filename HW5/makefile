@@ -7,15 +7,15 @@ RM=rm -rf $(EXEC) libfirewall.so *.o
 LOBJS=string.o field.o ip.o port.o
 
 #THE FIRST RULE IS INVOKED BY DEFAULT
-$(EXEC): $(OBJS) libfirewall.so linput.so
+$(EXEC): $(OBJS) libfirewall.so libinput.so
 	$(CLINK) $(CXXFLAGS) $(OBJS) -o $(EXEC) -linput -lfirewall -L.
 
 #ALL OTHER RULES
-$(OBJS): libfirewall.so libinput.so main.cpp
-	$(CXX) $(CXXFLAGS) -cpp main.cpp
+# $(OBJS): libfirewall.so libinput.so main.cpp
+# 	$(CXX) $(CXXFLAGS) -cpp main.cpp
 
-libfirewall.so: $(OBJS)
-	$(CLINK) -shared $(LOBJS) -o libfirewall.so
+libfirewall.so: $(LOBJS)
+	$(CLINK) -shared $(LOBJS) -o libfirewall.so -L.
 
 main.o: main.cpp string.h field.h ip.h port.h
 	$(CXX) $(CXXFLAGS) -cpp main.cpp
