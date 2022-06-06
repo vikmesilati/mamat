@@ -11,18 +11,10 @@ String::String(){
 }
 
 String::String(const String &str){
-    if (&str == nullptr) {
-        data = new char[1];
-        data[0] = '\0';
-        length = 0;
-    }
- 
-    else {
-        data = new char[str.length + 1];
-        strcpy(data, str.data);
-        data[str.length] = '\0';
-        length = str.length;
-    }
+    data = new char[str.length + 1];
+    strcpy(data, str.data);
+    data[str.length] = '\0';
+    length = str.length;
 }
 
 String::String(const char *str){
