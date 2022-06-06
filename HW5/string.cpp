@@ -86,10 +86,10 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
     String *arr = new String[size_arr];
     // size = size_arr;
     char *token2;
-    for(int m = 0; m < size_arr ; m++){
+    for(size_t m = 0; m < size_arr ; m++){
         arr[m] = String();
     }
-    int i = 0;
+    size_t i = 0;
     token2 = strtok(temp, delimiters);
     while( token2 != NULL || i < size_arr ) {
         arr[i]=token2;
@@ -105,10 +105,10 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
 
 int String::to_integer() const{
     try{
-        int temp = atoi(this->data);
+        int temp = stoi(this->data);
         return temp;
     }
-    catch(exception err){
+    catch(exception &err){
         return 0;
     }
 }
@@ -123,13 +123,4 @@ String String::trim() const{
     while (*end && *end == ' ') end--;
     *(end + 1) = '\0';
     return *temp;
-}
-
-int main(){
-    String *temp;
-    String *temp2 = new String("a,b,c,d,h,v,k");
-    size_t i = 0;
-    temp2->split(",",&temp,&i);
-    delete[] temp;
-    return 0;
 }

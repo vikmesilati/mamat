@@ -18,7 +18,7 @@ Field::~Field(){//stack(no allocate)
 
 /* Returns true iff "packet" matches "this" */
 bool Field::match(String packet){
-	return (this->match_value(packet));
+	return true;
 }
 
 
