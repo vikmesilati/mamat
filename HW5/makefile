@@ -3,12 +3,12 @@ CLINK=$(CXX)
 CXXFLAGS=-g -Wall -std=c++11
 OBJS=main.o
 EXEC=firewall.exe
-RM=rm -rf $(EXEC) libfirewall.so *.o
+RM=rm -rf *.o
 LOBJS=string.o field.o ip.o port.o
 
 #THE FIRST RULE IS INVOKED BY DEFAULT
-$(EXEC): $(OBJS) libfirewall.so libinput.so
-	$(CLINK) $(CXXFLAGS) $(OBJS) -o $(EXEC) -linput -lfirewall -L.
+$(EXEC): $(LOBJS) libfirewall.so libinput.so
+	$(CLINK) $(CXXFLAGS) $(OBJS) -o $(EXEC) -linput -L.
 
 #ALL OTHER RULES
 # $(OBJS): libfirewall.so libinput.so main.cpp
