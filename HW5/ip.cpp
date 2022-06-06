@@ -11,22 +11,22 @@ Ip::Ip(String val):Field(val){
 }
 
 bool Ip::set_value(String val){
-	if(this->ip_parts[this->num_ip_parts-1].to_integer() < 0 || this->num_ip_parts > 32){//Check the last string 
+	if(this->ip_parts[this->num_ip_parts-1].to_integer() < 0 || this->ip_parts[this->num_ip_parts-1].to_integer() > 32){//Check the last string 
 		return false;
 	}
-	for(int i=0; i<4; i++){//the fifth is mask
+	for(int i=0; i < this->num_ip_parts - 2; i++){//the fifth is mask
 		if((this->ip_parts[i].to_integer() < 0) || (this->ip_parts[i].to_integer() > 255)){
 			return false;
 		}
 		int byte_part=8*(i+1);
-		if((this->ip_parts[this->num_ip_parts-1].to_integer() < byte_part) && (this->ip_parts[i].to_integer() != 0)){
+		if(this->ip_parts[this->num_ip_parts-1].to_integer() < byte_part){
 			ip_parts[i] = "0"; //mask don't care
 		}
 	}
 	return true;
 }
 
-bool Ip::match_value(String value){
+bool Ip::match_value(String value) const{
 	int max_care = this->ip_parts[num_ip_parts-1].to_integer();
 	int i = 0;
 	while(max_care>1){

@@ -18,7 +18,7 @@ bool Port::set_value(String val){
 	}
 }
 
-bool Port::match_value(String value){
+bool Port::match_value(String value) const{
 	for (int i=0; i< 2; i++){
 		if(!(this->port_parts[i].equals(value))){
 			return false;

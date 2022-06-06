@@ -8,11 +8,11 @@ class Port : public Field{
 private:
 	String *port_parts;
 	size_t num_port_parts;//2 parts port
-	const char port_delimiter[2] = {'-', '\0'};
+	const char *port_delimiter = "-";
 public:
 	Port(String val);
 	bool set_value(String val);
-	bool match_value(String value);
+	bool match_value(String value) const override;
 	~Port();
 };
 

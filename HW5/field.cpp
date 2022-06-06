@@ -12,12 +12,12 @@ Field::Field(String pattern){
 
 //Delete the copied string
 Field::~Field(){//stack(no allocate)
+	
 }
-
 
 /* Returns true iff "packet" matches "this" */
 bool Field::match(String packet){
-	return (this->pattern.equals(packet));
+	return (this->match_value(packet));
 }
 
 
