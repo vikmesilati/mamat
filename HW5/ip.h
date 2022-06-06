@@ -5,14 +5,14 @@
 #include "string.h"
 
 class Ip : public Field{
-// private:
-// 	String *ip_parts;
-// 	size_t num_ip_parts;
-// 	const char *delimiters = "./=";
-public:
+private:
 	String *ip_parts;
 	size_t num_ip_parts;
 	const char *delimiters = "./=";
+	String mask;
+	int mask_size;
+	char* int_to_bit(int num);
+public:
 	Ip(String val);
 	bool set_value(String val);
 	bool match_value(String value) const override;

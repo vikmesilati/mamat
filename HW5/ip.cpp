@@ -9,11 +9,15 @@ using namespace std;
 
 //IP Constructor
 Ip::Ip(String val):Field(val){
-	val.trim();//clean the string
+	val = val.trim();//clean the string
 	val.split(this->delimiters, &(this->ip_parts), &(this->num_ip_parts));//array of strings and every string has a number part of IP
 	for(size_t i = 0; i < this->num_ip_parts; i++){
-		this->ip_parts[i].trim();
+		this->ip_parts[i] = this->ip_parts[i].trim();
 	}
+}
+
+char* Ip::int_to_bit(int num){
+	
 }
 
 bool Ip::set_value(String val){

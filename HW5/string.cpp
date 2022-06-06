@@ -114,7 +114,7 @@ int String::to_integer() const{
 }
 
 String String::trim() const{
-    char *start, *end = new char[this->length];
+    char *start, *end;
     String *temp = new String(*this);
     start = temp->data;
     while (*start && *start == ' ') start++;
