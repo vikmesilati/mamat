@@ -31,17 +31,20 @@ char* Ip::int_to_bit(int num){
 }
 
 bool Ip::set_value(String val){
-	char *rule = new char[4 * (num_ip_parts-2)];
-	if(ip_parts[num_ip_parts-1].to_integer() < 0 || ip_parts[num_ip_parts-1].to_integer() > 32){//Check the last string 
+	String *out;
+	size_t num;
+	val.trim().split(delimiters,&out,&num);
+	char *rule = new char[4 * (num-2)];
+	if(out[num-1].to_integer() < 0 || out[num-1].to_integer() > 32){//Check the last string 
 		return false;
 	}
-	for(size_t i=1; i < num_ip_parts - 1; i++){//the fifth is mask
-		if((ip_parts[i].to_integer() < 0) || (ip_parts[i].to_integer() > 255)){
+	for(size_t i=1; i < num - 1; i++){//the fifth is mask
+		if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
 			return false;
 		}
-		strcat(rule,int_to_bit(ip_parts[i].to_integer()));
+		strcat(rule,int_to_bit(out[i].to_integer()));
 	}
-	mask_size = ip_parts[num_ip_parts-1].to_integer();
+	mask_size = out[num-1].to_integer();
 	memcpy(mask,rule,mask_size);
 	mask = rule;
 	delete rule;
