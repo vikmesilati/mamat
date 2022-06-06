@@ -6,8 +6,8 @@
 
 //IP Constructor
 Ip::Ip(String val):Field(val){
-	this->val.trim();//clean the string
-	this->val.split(this->delimiters, &(this->ip_parts), &(this->num_ip_parts));//array of strings and every string has a number part of IP
+	val.trim();//clean the string
+	val.split(this->delimiters, &(this->ip_parts), &(this->num_ip_parts));//array of strings and every string has a number part of IP
 }
 
 bool Ip::set_value(String val){
