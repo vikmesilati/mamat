@@ -124,12 +124,3 @@ String String::trim() const{
     *(end + 1) = '\0';
     return *temp;
 }
-
-int main(){
-    String *temp;
-    String *temp2 = new String("a,b,c,d,h,v,k");
-    size_t i = 0;
-    temp2->split(",",&temp,&i);
-    delete[] temp;
-    return 0;
-}

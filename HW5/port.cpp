@@ -16,6 +16,7 @@ bool Port::set_value(String val){
 			return false;
 		}
 	}
+	return true;
 }
 
 bool Port::match_value(String value) const{

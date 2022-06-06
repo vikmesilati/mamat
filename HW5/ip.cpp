@@ -14,7 +14,7 @@ bool Ip::set_value(String val){
 	if(this->ip_parts[this->num_ip_parts-1].to_integer() < 0 || this->ip_parts[this->num_ip_parts-1].to_integer() > 32){//Check the last string 
 		return false;
 	}
-	for(int i=0; i < this->num_ip_parts - 2; i++){//the fifth is mask
+	for(size_t i=0; i < this->num_ip_parts - 2; i++){//the fifth is mask
 		if((this->ip_parts[i].to_integer() < 0) || (this->ip_parts[i].to_integer() > 255)){
 			return false;
 		}
