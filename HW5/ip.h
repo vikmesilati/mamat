@@ -9,7 +9,7 @@ private:
 	String *ip_parts;
 	size_t num_ip_parts;
 	const char *delimiters = "./=";
-	String mask;
+	char *mask;
 	int mask_size;
 	char* int_to_bit(int num);
 public:
