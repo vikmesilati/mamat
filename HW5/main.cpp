@@ -16,7 +16,6 @@ int main(int argc, char **argv){
     String *src_ip = new String("src-ip");
     String *dst_ip = new String("dst-ip");
     Ip *src = new Ip(*src_port);
-    src_port->trim();
-    cout << src_port->data << endl;
+    cout << src->ip_parts[1].data << endl;
     return 0;
 }
