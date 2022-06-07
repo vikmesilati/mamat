@@ -8,20 +8,24 @@
 using namespace std;
 
 int main(int argc, char **argv){
-    // if(check_args(argc, argv) == 0){
-    //     exit(1);
-    // }
+    if(check_args(argc, argv) == 0){
+        exit(1);
+    }
     String *src_port = new String("src-port");
-    String *dst_port = new String("src-port=132.22.22.21");
-    String *rule = new String ("src-port   =    132.22.22.22/8  ");
+    String *dst_port = new String("dst-port");
     String *src_ip = new String("src-ip");
     String *dst_ip = new String("dst-ip");
-    Ip *src = new Ip(*src_port);
-    src->set_value(*rule);
+    String *input = new String(argv[1]);
+    Port *psrc = new Port(*src_port);
+    Port *dsrc = new Port(*dst_port);
+    Ip *ipsrc = new Ip(*src_ip);
+    Ip *ipdst = new Ip(*dst_ip);
+    psrc->set_value(*input);
+    dsrc->set_value(*input);
+    ipsrc->set_value(*input);
+    ipdst->set_value(*input);
+    
 
-    cout << src->match(*dst_port)<<endl;
-    
-    
     // checking port//
     // String* src_port = new String("src-port");
     // String *port_rule = new String("src-port = 130 - 132");
