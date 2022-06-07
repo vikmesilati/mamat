@@ -52,9 +52,9 @@ bool Ip::match_value(String value) const{
 	String *out;
 	size_t num;
 	value.trim().split(delimiters,&out,&num);
-	char *val = new char[4 * (num)];
-	memset(val,0,4*num);
-	for(size_t i=0; i < num; i++){//the fifth is mask
+	char *val = new char[4 * (num-1)];
+	memset(val,0,4*(num-1));
+	for(size_t i=1; i < num; i++){//the fifth is mask
 		if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
 			return false;
 		}
@@ -63,16 +63,21 @@ bool Ip::match_value(String value) const{
 		strcat(val,temp);
 		
 	}
+	String temp = out[0];
 	char *rule = new char[mask_size+1];
 	memcpy(rule,val,mask_size);
 	String *str_rule = new String(rule);
-	bool res = str_rule->equals(mask);
+	bool res = str_rule->equals(mask) && this->Field::match(temp);
 	delete str_rule;
 	delete rule;
 	delete[] out;
 	delete[] val;
 	return  res;
 
+}
+
+bool Ip::match(String packet) const{
+	return this->match_value(packet);
 }
 
 Ip::~Ip(){}

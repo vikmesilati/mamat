@@ -17,8 +17,8 @@ Field::~Field(){//stack(no allocate)
 }
 
 /* Returns true iff "packet" matches "this" */
-bool Field::match(String packet){
-	return true;
+bool Field::match(String packet) const{
+	return pattern.equals(packet);
 }
 
 

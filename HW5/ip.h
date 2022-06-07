@@ -14,6 +14,7 @@ public:
 	Ip(String val);
 	bool set_value(String val);
 	bool match_value(String value) const override;
+	bool match (String packet) const;
 	~Ip();
 };
 

@@ -15,7 +15,7 @@ public:
     virtual ~Field();
     virtual bool set_value(String val) = 0;
     /* Returns true iff "packet" matches "this" */
-    bool match(String packet);
+    bool match(String packet) const;
 };
 
 #endif
