@@ -8,23 +8,25 @@
 using namespace std;
 
 int main(int argc, char **argv){
-    if(check_args(argc, argv) == 0){
-        exit(1);
-    }
+    // if(check_args(argc, argv) == 0){
+    //     exit(1);
+    // }
     String *src_port = new String("src-port");
-    String *dst_port = new String("dst-port");
+    // String *dst_port = new String("dst-port");
     String *src_ip = new String("src-ip");
-    String *dst_ip = new String("dst-ip");
+    // String *dst_ip = new String("dst-ip");
     String *input = new String(argv[1]);
+
     Port *psrc = new Port(*src_port);
-    Port *dsrc = new Port(*dst_port);
+    cout << "here";
+    // Port *dsrc = new Port(*dst_port);
     Ip *ipsrc = new Ip(*src_ip);
-    Ip *ipdst = new Ip(*dst_ip);
+    // Ip *ipdst = new Ip(*dst_ip);
     psrc->set_value(*input);
-    dsrc->set_value(*input);
+    // dsrc->set_value(*input);
     ipsrc->set_value(*input);
-    ipdst->set_value(*input);
-    
+    // ipdst->set_value(*input);
+ 
 
     // checking port//
     // String* src_port = new String("src-port");
