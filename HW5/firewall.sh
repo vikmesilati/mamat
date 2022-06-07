@@ -10,6 +10,8 @@ for val in "${strarr[@]}";
 do
 ./firewall.exe "$val";
 done > temp.txt
+sort temp.txt | uniq -c | awk '{print $2, $1}';
+sleep 20;
 done > out.txt
 
 rm parsed.txt parsed-blank.txt parsed-space.txt
