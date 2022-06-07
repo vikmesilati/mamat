@@ -22,10 +22,10 @@ int main(int argc, char **argv){
     
     
     //checking port//
-    String* src_port = new String("  src-port  = 22-30");
-    String *port_packet = new String("24");
-    Port* src_p = new Port(*src_port);
-    src_p->set_value(*src_port);
-    cout << src_p->match_value(*src_port)<<endl;
+    // String* src_port = new String("  src-port  = 22-30");
+    // String *port_packet = new String("24");
+    // Port* src_p = new Port(*src_port);
+    // src_p->set_value(*src_port);
+    // cout << src_p->match_value(*src_port)<<endl;
     return 0;
 }

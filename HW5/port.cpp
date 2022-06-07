@@ -11,7 +11,7 @@ bool Port::set_value(String val){
 	String *temp_ports;
 	size_t num_ports;
 	val.trim();//clean the string
-	val.split(port_delimiter, &(temp_port), &(num_port));//array of strings and every string has a number part of IP
+	val.split(port_delimiter, &(temp_ports), &(num_ports));//array of strings and every string has a number part of IP
 	port_min = port_parts[0].trim();
 	port_max = port_parts[1].trim();
 
