@@ -28,24 +28,28 @@ bool Ip::set_value(String val){
 	String *out;
 	size_t num;
 	val.trim().split(delimiters,&out,&num);
-	char *rule = new char[4 * (num-2)];
-	memset(rule,0,4*(num-2));
-	if(out[num-1].to_integer() < 0 || out[num-1].to_integer() > 32){//Check the last string 
-		return false;
-	}
-	for(size_t i=1; i < num - 1; i++){//the fifth is mask
-		if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
+	if(this->Field::match(out[0])){
+		char *rule = new char[4 * (num-2)];
+		memset(rule,0,4*(num-2));
+		if(out[num-1].to_integer() < 0 || out[num-1].to_integer() > 32){//Check the last string 
 			return false;
 		}
-		char* temp = int_to_bit(out[i].trim().to_integer());
-		strcat(rule,temp);
+		for(size_t i=1; i < num - 1; i++){//the fifth is mask
+			if((out[i].to_integer() < 0) || (out[i].to_integer() > 255)){
+				return false;
+			}
+			char* temp = int_to_bit(out[i].trim().to_integer());
+			strcat(rule,temp);
+		}
+		mask = new char[4 * (num-2)];
+		mask_size = out[num-1].to_integer();
+		memcpy(mask,rule,mask_size);
+		delete rule;
+		delete[] out;
+		return true;
 	}
-	mask = new char[4 * (num-2)];
-	mask_size = out[num-1].to_integer();
-	memcpy(mask,rule,mask_size);
-	delete rule;
 	delete[] out;
-	return true;
+	return false;
 }
 
 bool Ip::match_value(String value) const{

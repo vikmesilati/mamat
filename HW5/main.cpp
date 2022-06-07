@@ -11,21 +11,40 @@ int main(int argc, char **argv){
     // if(check_args(argc, argv) == 0){
     //     exit(1);
     // }
+
     String *src_port = new String("src-port");
-    // String *dst_port = new String("dst-port");
+    String *dst_port = new String("dst-port");
     String *src_ip = new String("src-ip");
-    // String *dst_ip = new String("dst-ip");
+    String *dst_ip = new String("dst-ip");
     String *input = new String(argv[1]);
 
+  
     Port *psrc = new Port(*src_port);
-    cout << "here";
-    // Port *dsrc = new Port(*dst_port);
+    Port *dsrc = new Port(*dst_port);
     Ip *ipsrc = new Ip(*src_ip);
-    // Ip *ipdst = new Ip(*dst_ip);
-    psrc->set_value(*input);
-    // dsrc->set_value(*input);
-    ipsrc->set_value(*input);
-    // ipdst->set_value(*input);
+    Ip *ipdst = new Ip(*dst_ip);
+    bool is_src_port = psrc->set_value(*input);
+    bool is_dst_port = dsrc->set_value(*input);
+    bool is_dst_ip = ipdst->set_value(*input);
+    bool is_src_ip = ipsrc->set_value(*input);
+
+    if(is_src_port){
+    	cout << "src-port" << endl;
+    	// parse_input(*psrc);
+    }
+    if(is_dst_port){
+    	cout << "dst-port" << endl;
+    	// parse_input(*dsrc);
+    }
+    if(is_src_ip){
+    	cout << "src-ip" << endl;
+    	// parse_input(*ipsrc);
+    }
+    if(is_dst_ip){
+    	cout << "dst-ip" << endl;
+    	// parse_input(*ipdst);
+    }
+
  
 
     // checking port//

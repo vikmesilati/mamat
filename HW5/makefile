@@ -8,7 +8,7 @@ LOBJS=string.o field.o ip.o port.o
 
 #THE FIRST RULE IS INVOKED BY DEFAULT
 $(EXEC): $(OBJS) libfirewall.so libinput.so
-	$(CLINK) $(CXXFLAGS) $(OBJS) $(LOBJS) -o $(EXEC) -linput -L.
+	$(CLINK) $(CXXFLAGS) $(OBJS) $(LOBJS) -o $(EXEC) -linput -lfirewall -L.
 
 #ALL OTHER RULES
 # $(OBJS): libfirewall.so libinput.so main.cpp
