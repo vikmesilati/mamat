@@ -115,12 +115,14 @@ int String::to_integer() const{
 
 String String::trim() const{
     char *start, *end;
-    String *temp = new String(*this);
-    start = temp->data;
-    while (*start && *start == ' ') start++;
-    memmove(temp->data, start, strlen(start) + 1);
-    end = temp->data + this->length - 1;
-    while (*end && *end == ' ') end--;
+    char *temp = new char[strlen(data)];
+    strcpy(temp,data);
+    start = temp;
+    while (*start && (*start == ' ' || *start == ',')) start++;
+    memmove(temp, start, strlen(start) + 1);
+    end = temp + strlen(temp) - 1;
+    while (*end && (*end == ' ' || *end == ',')) end--;
     *(end + 1) = '\0';
-    return *temp;
+    String *ret = new String(temp);
+    return *ret;
 }

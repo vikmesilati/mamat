@@ -18,7 +18,6 @@ int main(int argc, char **argv){
     String *dst_ip = new String("dst-ip");
     String *input = new String(argv[1]);
 
-  
     Port *psrc = new Port(*src_port);
     Port *dsrc = new Port(*dst_port);
     Ip *ipsrc = new Ip(*src_ip);
