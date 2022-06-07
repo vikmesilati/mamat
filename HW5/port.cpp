@@ -17,7 +17,6 @@ bool Port::set_value(String val){
 	if(this->Field::match(val_arr[0])){
 		port_min = temp_ports[2].trim().to_integer();
 		port_max = temp_ports[3].trim().to_integer();
-		delete[] temp_ports;
 		if(port_min > port_max){
 			return false; //MIN > MAX
 		}
@@ -27,7 +26,7 @@ bool Port::set_value(String val){
 		return true;
 	}
 	delete[] temp_ports;
-	delete[] val_arr;
+	// delete[] val_arr;
 	return false;
 }
 

@@ -8,8 +8,8 @@ do IFS=',';
 read -a strarr <<< "$line";
 for val in "${strarr[@]}";
 do
-  ./firewall.exe "$val" > out.txt;
-done
-done
+./firewall.exe "$val";
+done > temp.txt
+done > out.txt
 
-rm parsed.txt parsed-blank.txt parsed-space.txt out.txt
+rm parsed.txt parsed-blank.txt parsed-space.txt

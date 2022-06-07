@@ -45,7 +45,6 @@ bool Ip::set_value(String val){
 		mask_size = out[num-1].to_integer();
 		memcpy(mask,rule,mask_size);
 		delete rule;
-		delete[] out;
 		return true;
 	}
 	delete[] out;
