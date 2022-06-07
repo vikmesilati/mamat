@@ -8,7 +8,7 @@ using namespace std;
 //PUBLIC
 //Copy from given Pattern to the private part
 Field::Field(String pattern){
-	this->pattern=pattern;///////field.pattern' is not OK 
+	this->pattern=pattern.trim();///////field.pattern' is not OK 
 }
 
 //Delete the copied string

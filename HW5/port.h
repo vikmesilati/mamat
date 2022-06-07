@@ -8,7 +8,7 @@ class Port : public Field{
 private:
 	//String **port_parts;
 	//int num_port_parts;//2 parts port
-	const char port_delimiter[1] = {'-'};
+	const char *port_delimiter = "-=";
 public:
 	int port_min;
 	int port_max;
