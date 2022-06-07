@@ -4,33 +4,32 @@
 #include "field.h"
 #include "port.h"
 
-//IP Constructor
-Port::Port(String val):Field(val){
-	val = val.trim();//clean the string
-	val.split(this->port_delimiter, &(this->port_parts), &(this->num_port_parts));//array of strings and every string has a number part of IP
-	for(size_t i = 0; i < this->num_port_parts; i++){
-		this->port_parts[i] = this->port_parts[i].trim();
-	}
-}
+//PORT Constructor
+Port::Port(String val):Field(val), port_min(0), port_max(0){}
 
 bool Port::set_value(String val){
-	for(int i=0; i<2; i++){
-		if((this->port_parts[i].to_integer() < 0) || (this->num_port_parts > 65535)){
-			return false;
-		}
+	String *temp_ports;
+	size_t num_ports;
+	val.trim();//clean the string
+	val.split(port_delimiter, &(temp_port), &(num_port));//array of strings and every string has a number part of IP
+	port_min = port_parts[0].trim();
+	port_max = port_parts[1].trim();
+
+	if(port_min > port_max){
+		return false; //MIN > MAX
+	}
+	if((port_min < 0) || (port_max > 65535)){
+		return false;
 	}
 	return true;
 }
 
 bool Port::match_value(String value) const{
-	for (int i=0; i< 2; i++){
-		if(!(this->port_parts[i].equals(value))){
-			return false;
-		}
+	int port_packet = value.trim().to_integer();
+	if((port_min <= port_packet) && (port_max >= port_packet)){
+		return true;
 	}
-	return true;
+	return false;
 }
 
-Port::~Port(){
-	delete[] this->port_parts;
-}
+Port::~Port(){}

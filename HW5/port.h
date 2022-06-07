@@ -6,14 +6,15 @@
 
 class Port : public Field{
 private:
-	String *port_parts;
-	size_t num_port_parts;//2 parts port
-	const char *port_delimiter = "-";
+	//String **port_parts;
+	//int num_port_parts;//2 parts port
+	const char port_delimiter[1] = {'-'};
 public:
+	int port_min;
+	int port_max;
 	Port(String val);
 	bool set_value(String val);
-	bool match_value(String value) const override;
+	bool match_value(String value);
 	~Port();
 };
 
-#endif
