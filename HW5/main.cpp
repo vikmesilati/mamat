@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(int argc, char **argv){
-    // if(check_args(argc, argv) == 0){
+    // if(check_args(argc, argv) != 0){
     //     exit(1);
     // }
 
@@ -26,9 +26,9 @@ int main(int argc, char **argv){
     bool is_dst_port = dsrc->set_value(*input);
     bool is_dst_ip = ipdst->set_value(*input);
     bool is_src_ip = ipsrc->set_value(*input);
-
+    cout << psrc->port_max << endl;
     if(is_src_port){
-    	cout << "src-port" << endl;
+    	// cout << "src-port" << endl;
     	parse_input(*psrc);
     }
     if(is_dst_port){

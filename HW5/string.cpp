@@ -84,7 +84,6 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
     }
     *size = size_arr;
     String *arr = new String[size_arr];
-    // size = size_arr;
     char *token2;
     for(size_t m = 0; m < size_arr ; m++){
         arr[m] = String();
@@ -97,10 +96,10 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
         i++;
     }
     *output = arr;
-    delete token2;
-    delete token1;
-    delete temp;
-    delete temp2;
+    // delete token2;
+    // delete token1;
+    // delete temp;
+    // delete temp2;
 }
 
 int String::to_integer() const{

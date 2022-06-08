@@ -30,7 +30,7 @@ bool Ip::set_value(String val){
 	String *out;
 	size_t num;
 	val.trim().split(delimiters,&out,&num);
-	if(this->Field::match(out[0])){
+	if(pat.equals(out[0])){
 		char *rule = new char[4 * (num-2)];
 		memset(rule,0,4*(num-2));
 		if(out[num-1].to_integer() < 0 || out[num-1].to_integer() > 32){//Check the last string 
