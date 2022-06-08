@@ -26,22 +26,17 @@ int main(int argc, char **argv){
     bool is_dst_port = dsrc->set_value(*input);
     bool is_dst_ip = ipdst->set_value(*input);
     bool is_src_ip = ipsrc->set_value(*input);
-    cout << psrc->port_max << endl;
     if(is_src_port){
-    	// cout << "src-port" << endl;
     	parse_input(*psrc);
     }
     if(is_dst_port){
-    	cout << "dst-port" << endl;
-    	// parse_input(*dsrc);
+    	parse_input(*dsrc);
     }
     if(is_src_ip){
-    	cout << "src-ip" << endl;
-    	// parse_input(*ipsrc);
+    	parse_input(*ipsrc);
     }
     if(is_dst_ip){
-    	cout << "dst-ip" << endl;
-    	// parse_input(*ipdst);
+    	parse_input(*ipdst);
     }
 
  

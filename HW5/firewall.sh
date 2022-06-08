@@ -9,10 +9,11 @@ read -a strarr <<< "$line";
 > temp.txt;
 for val in "${strarr[@]}";
 do
+echo "$val";
 ./firewall.exe "$val" | tee -a temp.txt > /dev/null;
 done
-
 sort temp.txt | uniq -c | awk '{if($1 >= 4) print $2;}';
-done > out.txt
+done
 
-rm parsed.txt parsed-blank.txt parsed-space.txt
+# rm parsed.txt parsed-blank.txt parsed-space.txt
+ 
