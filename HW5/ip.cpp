@@ -8,7 +8,9 @@
 using namespace std;
 
 //IP Constructor
-Ip::Ip(String val):Field(val){}
+Ip::Ip(String val):Field(val){
+	this->pat = val;
+}
 
 char* Ip::int_to_bit(int num) const{
 	char *out = new char[4];
@@ -70,7 +72,7 @@ bool Ip::match_value(String value) const{
 	char *rule = new char[mask_size+1];
 	memcpy(rule,val,mask_size);
 	String *str_rule = new String(rule);
-	bool res = str_rule->equals(mask) && this->Field::match(temp);
+	bool res = str_rule->equals(mask) && pat.equals(temp);
 	delete str_rule;
 	delete rule;
 	delete[] out;
@@ -79,7 +81,7 @@ bool Ip::match_value(String value) const{
 
 }
 
-bool Ip::match(String packet) const{
+bool Ip::match(String packet){
 	return this->match_value(packet);
 }
 

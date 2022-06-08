@@ -9,13 +9,14 @@ private:
 	//String **port_parts;
 	//int num_port_parts;//2 parts port
 	const char *port_delimiter = "-=";
+	String pat;
 public:
 	int port_min;
 	int port_max;
 	Port(String val);
 	bool set_value(String val);
 	bool match_value(String value) const override;
-	bool match(String packet) const;
+	bool match(String packet);
 	~Port();
 };
 

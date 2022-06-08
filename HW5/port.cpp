@@ -5,7 +5,9 @@
 #include "port.h"
 using namespace std;
 //PORT Constructor
-Port::Port(String val):Field(val), port_min(0), port_max(0){}
+Port::Port(String val):Field(val), port_min(0), port_max(0){
+	this->pat = val;
+}
 
 bool Port::set_value(String val){
 	String *temp_ports;
@@ -36,7 +38,7 @@ bool Port::match_value(String value) const{
 	value.trim().split("=",&val_arr,&val_size);
 	String packet_type = val_arr[0];
 	int port_packet = val_arr[1].trim().to_integer();
-	bool is_match = this->Field::match(packet_type);
+	bool is_match = pat.equals(packet_type);
 	delete[] val_arr;
 	if((port_min <= port_packet) && (port_max >= port_packet) && is_match){
 		return true;
@@ -44,7 +46,7 @@ bool Port::match_value(String value) const{
 	return false;
 }
 
-bool Port::match(String value) const{
+bool Port::match(String value){
 	return this->match_value(value);
 }
 Port::~Port(){}

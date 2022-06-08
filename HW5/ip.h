@@ -10,11 +10,12 @@ private:
 	char *mask;
 	int mask_size;
 	char* int_to_bit(int num) const;
+	bool match_value(String value) const override;
+	String pat;
 public:
 	Ip(String val);
 	bool set_value(String val);
-	bool match_value(String value) const override;
-	bool match (String packet) const;
+	bool match (String packet);
 	~Ip();
 };
 
