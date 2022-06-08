@@ -11,7 +11,7 @@ $(EXEC): $(OBJS) libfirewall.so
 	$(CLINK) $(CXXFLAGS) $(OBJS) -o $(EXEC) -linput -lfirewall -L.
 
 #ALL OTHER RULES
-$(OBJS): main.cpp string.h field.h ip.h port.h
+$(OBJS): main.cpp string.h field.h ip.h port.h input.h
 	$(CXX) $(CXXFLAGS) -c -fpic main.cpp
 
 libfirewall.so: $(LOBJS)

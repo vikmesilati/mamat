@@ -29,7 +29,7 @@ int main(int argc, char **argv){
 
     if(is_src_port){
     	cout << "src-port" << endl;
-    	// parse_input(*psrc);
+    	parse_input(*psrc);
     }
     if(is_dst_port){
     	cout << "dst-port" << endl;
