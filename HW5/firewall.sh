@@ -17,5 +17,4 @@ sort temp.txt | uniq -c| awk '{if($1 >= 4) print $2 $3 $4 $5;}';
 done > out.txt
 sort out.txt
 
-rm parsed.txt parsed-blank.txt parsed-space.txt out.txt
- 
+rm parsed.txt parsed-blank.txt parsed-space.txt out.txt temp.txt
