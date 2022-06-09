@@ -9,7 +9,7 @@ read -a strarr <<< "$line";
 > temp.txt;
 for val in "${strarr[@]}";
 do
-echo "$val";
+##echo "$val";
 ./firewall.exe "$val" | tee -a temp.txt > /dev/null;
 done
 sort temp.txt | uniq -c | awk '{if($1 >= 4) print $2;}';

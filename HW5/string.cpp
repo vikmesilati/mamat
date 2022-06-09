@@ -83,23 +83,23 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
         token1 = strtok(NULL, delimiters);
     }
     *size = size_arr;
-    String *arr = new String[size_arr];
-    char *token2;
-    for(size_t m = 0; m < size_arr ; m++){
-        arr[m] = String();
-    }
-    size_t i = 0;
-    token2 = strtok(temp, delimiters);
-    while( token2 != NULL || i < size_arr ) {
-        arr[i]=token2;
-        token2 = strtok(NULL, delimiters);
-        i++;
-    }
-    *output = arr;
-    // delete token2;
-    // delete token1;
-    // delete temp;
-    // delete temp2;
+    if(output != NULL){
+   	 	String *arr = new String[size_arr];
+   	 	char *token2;
+   	 	for(size_t m = 0; m < size_arr ; m++){
+    		arr[m] = String();
+    	}
+    	size_t i = 0;
+    	token2 = strtok(temp, delimiters);
+   		while( token2 != NULL || i < size_arr ) {
+        	arr[i]=token2;
+        	token2 = strtok(NULL, delimiters);
+       		i++;
+    	}
+    	*output = arr;
+     	delete[] temp;/////////
+     	delete[] temp2;////////////
+     }
 }
 
 int String::to_integer() const{
@@ -114,7 +114,7 @@ int String::to_integer() const{
 
 String String::trim() const{
     char *start, *end;
-    char *temp = new char[strlen(data)];
+    char *temp = new char[strlen(data)+1];//////////////
     strcpy(temp,data);
     start = temp;
     while (*start && (*start == ' ' || *start == ',')) start++;
@@ -123,5 +123,6 @@ String String::trim() const{
     while (*end && (*end == ' ' || *end == ',')) end--;
     *(end + 1) = '\0';
     String *ret = new String(temp);
+    delete[] temp;////////////
     return *ret;
 }

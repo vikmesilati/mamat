@@ -8,9 +8,9 @@
 using namespace std;
 
 int main(int argc, char **argv){
-    // if(check_args(argc, argv) != 0){
-    //     exit(1);
-    // }
+   if(check_args(argc, argv) != 0){
+       exit(1);
+     }
 
     String *src_port = new String("src-port");
     String *dst_port = new String("dst-port");
@@ -39,14 +39,14 @@ int main(int argc, char **argv){
     	parse_input(*ipdst);
     }
 
- 
+ 	delete src_port;
+ 	delete dst_port;
+	delete src_ip;
+	delete dst_ip;
+	delete psrc;
+	delete dsrc;
+	delete ipsrc;
+	delete ipdst;
 
-    // checking port//
-    // String* src_port = new String("src-port");
-    // String *port_rule = new String("src-port = 130 - 132");
-    // String *port_packet = new String("src-port=131");
-    // Port* src_p = new Port(*src_port);
-    // src_p->set_value(*port_rule);
-    // cout << src_p->match(*port_packet)<<endl
     return 0;
 }

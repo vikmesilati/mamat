@@ -24,10 +24,11 @@ bool Field::match(String packet){
 	packet.trim().split(",",&out,&packet_size);
 	for(size_t i = 0; i < packet_size; i++){
 		if(this->match_value(out[i])){
+			delete[] out;///////////
 			return true;
 		}
 	}
-	// delete[] out;
+	//delete[] out;//////////////
 	
 	return false;
 }
