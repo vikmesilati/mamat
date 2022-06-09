@@ -122,6 +122,14 @@ String String::trim() const{
     end = temp + strlen(temp) - 1;
     while (*end && (*end == ' ' || *end == ',')) end--;
     *(end + 1) = '\0';
+    
+    char* d = start;
+    do {
+        while (*d == ' ') {
+            ++d;
+        }
+    } while (*start && (*start++ = *d++));
+
     String *ret = new String(temp);
     delete[] temp;////////////
     return *ret;
