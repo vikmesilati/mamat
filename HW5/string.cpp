@@ -129,7 +129,7 @@ String String::trim() const{
             ++d;
         }
     } while (*start && (*start++ = *d++));
-
+    
     String *ret = new String(temp);
     delete[] temp;////////////
     return *ret;
