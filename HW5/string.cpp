@@ -4,12 +4,21 @@
 #include "string.h"
 using namespace std;
 
+
+/**
+ * @brief Initiates an empty string
+ */
 String::String(){
     data = new char[1];
     data[0] = '\0';
     length = 0;
 }
 
+
+
+/**
+ * @brief Initiates string from other string
+ */
 String::String(const String &str){
     data = new char[str.length + 1];
     strcpy(data, str.data);
@@ -17,6 +26,10 @@ String::String(const String &str){
     length = str.length;
 }
 
+
+/**
+ * @brief Initiates a string from char array
+ */
 String::String(const char *str){
     if(str == nullptr){
         data = new char[1];
@@ -31,10 +44,19 @@ String::String(const char *str){
     }
 }
 
+
+
+
 String::~String(){
     delete[] data;
 }
 
+
+
+
+/**
+ * @brief Changes this from String
+ */
 String& String::operator=(const String &rhs){
     if(this == &rhs){
         return *this;
@@ -46,6 +68,11 @@ String& String::operator=(const String &rhs){
     return *this;
 }
 
+
+
+/**
+ * @brief Changes this from char array
+ */
 String& String::operator=(const char *str){
     if(this->data != NULL){
         delete this->data;
@@ -56,6 +83,11 @@ String& String::operator=(const char *str){
     return *this;
 }
 
+
+/**
+ * @brief Returns true iff the contents of this equals to the
+ * contents of rhs
+ */
 bool String::equals(const String &rhs) const{
     if(strcmp(this->data,rhs.data) == 0 && this->length == rhs.length){
         return true;
@@ -63,6 +95,12 @@ bool String::equals(const String &rhs) const{
     return false;
 }
 
+
+
+
+/**
+ * @brief Returns true iff the contents of this equals to rhs
+ */
 bool String::equals(const char *rhs) const{
     if(strcmp(this->data,rhs) == 0 && this->length == strlen(rhs)){
         return true;
@@ -70,7 +108,18 @@ bool String::equals(const char *rhs) const{
     return false;
 }
 
-void String::split(const char *delimiters, String **output, size_t *size) const{
+
+
+
+/**
+ * @brief Splits this to several sub-strings according to delimiters.
+ * Allocates memory for output that the user must delete (using delete[]).
+ * @note Does not affect this.
+ * @note If "output" is set to NULL, do not allocated memory, only
+ * compute "size".
+ */
+void String::split(const char *delimiters, String **output,
+                    size_t *size) const{
     char *token1;
     char *temp = new char[this->length + 1];
     char *temp2 = new char[this->length + 1];
@@ -97,11 +146,16 @@ void String::split(const char *delimiters, String **output, size_t *size) const{
        		i++;
     	}
     	*output = arr;
-     	delete[] temp;/////////
-     	delete[] temp2;////////////
+     	delete[] temp;
+     	delete[] temp2;
      }
 }
 
+
+
+/**
+ * @brief Try to convert this to an integer. Returns 0 on error.
+ */
 int String::to_integer() const{
     try{
         int temp = stoi(this->data);
@@ -112,9 +166,15 @@ int String::to_integer() const{
     }
 }
 
+
+
+/**
+ * @brief Remove any leading or trailing white-spaces.
+ * Does not change this.
+ */
 String String::trim() const{
     char *start, *end;
-    char *temp = new char[strlen(data)+1];//////////////
+    char *temp = new char[strlen(data)+1];
     strcpy(temp,data);
     start = temp;
     while (*start && (*start == ' ' || *start == ',')) start++;
@@ -131,6 +191,6 @@ String String::trim() const{
     } while (*start && (*start++ = *d++));
     
     String *ret = new String(temp);
-    delete[] temp;////////////
+    delete[] temp;
     return *ret;
 }

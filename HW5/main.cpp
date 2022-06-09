@@ -7,6 +7,13 @@
 #include "input.h"
 using namespace std;
 
+
+/**
+ * @brief Find the packets that match the given rules and print them
+ * @param argc The number of inputs, which is the rules "1" 
+ * @param argv We get the rules as a string
+ * @return 0
+ */
 int main(int argc, char **argv){
    if(check_args(argc, argv) != 0){
        exit(1);

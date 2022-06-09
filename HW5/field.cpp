@@ -1,22 +1,31 @@
 #include <iostream>
-
-#include <regex>
 #include "field.h"
 #include "string.h"
 using namespace std;
 
-//PUBLIC
-//Copy from given Pattern to the private part
+/**
+ * @brief Constructor to the Field class, saves the string type
+ * @param String pattern - The field type string {dst-ip,src-port...}
+ */
 Field::Field(String pattern){
-	this->pattern=pattern.trim();///////field.pattern' is not OK 
+	this->pattern=pattern.trim();
 }
 
-//Delete the copied string
-Field::~Field(){//stack(no allocate)
-	
-}
 
-/* Returns true iff "packet" matches "this" */
+
+
+/**
+ * @brief Destructor to the Field class, does nothing{no heap in constructor}
+ */
+Field::~Field(){}
+
+
+
+/**
+ * @brief Check if packet matches pattern(Rule)
+ * @param String packet - Packets that have fields {dst-ip,src-port...}
+ * @returns Returns true iff "packet" matches "this" 
+ */
 bool Field::match(String packet){
 	String temp;
 	String *out;
@@ -24,12 +33,10 @@ bool Field::match(String packet){
 	packet.trim().split(",",&out,&packet_size);
 	for(size_t i = 0; i < packet_size; i++){
 		if(this->match_value(out[i])){
-			delete[] out;///////////
+			delete[] out;
 			return true;
 		}
 	}
-	//delete[] out;//////////////
-	
 	return false;
 }
 
