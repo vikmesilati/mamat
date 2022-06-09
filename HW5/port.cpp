@@ -17,10 +17,10 @@ bool Port::set_value(String val){
 	val.trim().split("=",&val_arr,&val_size);
 	val.trim().split(port_delimiter, &(temp_ports), &(num_ports));
 	if(pat.equals(val_arr[0])){
-		port_min = temp_ports[0].trim().to_integer();//////////
-		port_max = temp_ports[1].trim().to_integer();///////////
+		port_min = temp_ports[2].trim().to_integer();//////////
+		port_max = temp_ports[3].trim().to_integer();///////////
 		delete[] temp_ports;/////
-	delete[] val_arr;////
+		delete[] val_arr;////
 		if(port_min > port_max){
 			return false; //MIN > MAX
 		}
@@ -41,6 +41,10 @@ bool Port::match_value(String value) const{
 	int port_packet = val_arr[1].trim().to_integer();
 	bool is_match = pat.equals(packet_type);
 	delete[] val_arr;//////
+	// cout << value.data << endl;
+	// cout << port_packet << endl;
+	// cout << port_min << endl;
+	// cout << port_max << endl;
 	if((port_min <= port_packet) && (port_max >= port_packet) && is_match){
 		return true;
 	}

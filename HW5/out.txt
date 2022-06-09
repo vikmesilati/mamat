@@ -1,3 +1,0 @@
-src-ip=245.128.209.218,  dst-ip=241.54.191.161,  src-port=53,  dst-port=15781  
-src-ip=245.128.209.218,  dst-ip=241.54.191.161,  src-port=53,  dst-port=44380  
-src-ip=245.128.209.218,  dst-ip=241.54.191.161,  src-port=53,  dst-port=37354  
