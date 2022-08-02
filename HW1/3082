@@ -1,0 +1,780 @@
+
+<!DOCTYPE html>
+<html lang='en' >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ynetnews - News</title><meta name="title" content="ynetnews - News"/><meta name="description" content="Ynetnews brings top breaking news from Israel, the Middle East, the War on Terrorism through the Israeli Palestinian Conflict to business &amp; culture."/><meta itemprop="name" content="ynetnews - News"><meta itemprop="description" content="Ynetnews brings top breaking news from Israel, the Middle East, the War on Terrorism through the Israeli Palestinian Conflict to business &amp; culture."><meta itemprop="image" content="https://www.ynetnews.com/images/news_defualt.jpg">
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://www.ynetnews.com/category/3082"/>
+                <meta property="og:title" content="ynetnews - News"/>
+                <meta property="og:description" content="Ynetnews brings top breaking news from Israel, the Middle East, the War on Terrorism through the Israeli Palestinian Conflict to business & culture."/>
+                <meta property="og:image" content="https://www.ynetnews.com/images/news_defualt.jpg"/>
+                <meta property="og:site_name" content="ynetnews"/>
+            <link href="https://ynet-images1.yit.co.il/Common/frontend/site/prod/ynetnews.e188528f24737a966d4f256ca87d8873.css" rel="stylesheet"/><script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no"><meta name="application-name" content="ynetnews"/><meta property="publishedPageId" content="42095"><link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon_2.ico"/>
+                <script>
+                dataLayer = [{  'hostname': 'ynetnews.com', 'pageName': '/category/3082?prof=3082.ENews-1.Home', 'contentPageType': 'Category Page', 'dcPath': '3082.ENews-1.Home', 
+                                        'userId': window.YitPaywall && YitPaywall.user && YitPaywall.user.props ? YitPaywall.user.props.userId : ""
+                                          }];
+                </script>
+                <script>(function (w, d, s, l, i) {w[l] = w[l] || [];w[l].push({'gtm.start':
+                new Date().getTime(), event: 'gtm.js'});var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-TC5SQQ');</script>
+            
+            <script>
+                function _isMobile() {
+                    var isMobile = (/iphone|ipod|android|blackberry|fennec/).test
+                    (navigator.userAgent.toLowerCase());
+                    return isMobile;
+                }
+
+                var isMobile1 = _isMobile();
+            </script>
+        <meta name="google-site-verification" content="rZ4bmXU-TGbfrtBMPbvFr2p8KyDc0fNRJ7ulqv4a_ds" /><script> window.defaultNativeVideoType = "videojs"</script><script type="text/javascript" src="https://ynet-images1.yit.co.il/Common/Api/Scripts/jquery-3.4.1.min.js"></script>
+                    <script type='text/javascript'>
+                        var googletag = googletag || {};
+                        googletag.cmd = googletag.cmd || [];
+                        if (window.innerWidth >= 767) {
+                            {
+                                var gen_ban = 'ads.300x250.1 ads.300x250.2';
+                                var general_banners_divs = gen_ban.split(' ');
+                                var gen_ban_size = '300x250 300x250';
+                                var general_banners_divs_sizes = gen_ban_size.split(' ');
+                            }
+                        } else if (window.innerWidth <= 767) {}
+                    </script>
+                    <script>
+                        var page_800 = false;
+                        var dcBgColor = 'fff';
+                        var dcGeo = '1';
+                        var dcPath = '3082.ENews-1.Home';
+                        var ParentCategory = 'ENews';
+                        var dcCG = 'main';
+                        if (document.cookie.indexOf('dcGeoAB') != -1) {
+                            {
+                                dcGeo = '2'
+                            }
+                        }
+                        
+                        
+                        
+                        var dcSite = 'yns';
+                        var dcLoadAds = 1;
+                        var Dc_refresh_all = 14;
+                        var Dc_refresh_jumbo = 14;
+                        var Dc_refresh_ozen = 14;
+                        var gptVer= '';
+                        var gptCtv= '';
+                        var new_gpt = '1';
+                        var newMedia = 'True';
+                        var browsi_on_gpt = 'False';
+                        var show_truvid_mobile = 'True';
+                        var show_truvid_desktop = 'True';
+                    </script>
+                    <script src='//totalmedia2.ynet.co.il/new_gpt/english/gpt_script_yns.js'></script>
+                    <script  src=''></script>
+                
+            <script>
+                _pageRefresher = {
+                    c: {},
+                    i: function () {
+                        var a = this;
+                        var stopFromLive = 1;
+                        window.pageRefreshDisable = function (g) {
+                            if (!g) {
+                                var g = 'flashvideoplayer'
+                            } else if (g == 'liveVideo') {
+                                stopFromLive = 0;
+                            }
+                            a.c[g] = true;
+                        };
+                        if (stopFromLive == 1) {
+                            window.pageRefreshEnable = function (g) {
+                                if (!g)
+                                    var g = 'flashvideoplayer';
+                                a.c[g] = false;
+                            };
+                        }
+                        a.t();
+                    },
+                    t: function () {
+                        var a = this;
+                        setTimeout(function () {
+                                var o = false;
+                                for (var g in a.c) {
+                                    if (a.c[g]) {
+                                        o = true;
+                                        break;
+                                    }
+                                }
+                                if (!o) {
+                                    window.location.reload();
+                                }
+                                a.t();
+                            }, 420000
+                        );
+                    }
+                };
+                _pageRefresher.i();
+            </script>
+        
+            <script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "WebPage",
+                    "name": "ynetnews - News",
+                    "url": "https://www.ynetnews.com/category/3082",
+                    "description": "Ynetnews brings top breaking news from Israel, the Middle East, the War on Terrorism through the Israeli Palestinian Conflict to business & culture.",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+    {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+            "@type": "WebSite",
+            "@id": "https://www.ynetnews.com/category/3082",
+            "name": "News"
+        }
+    }
+]
+                    }
+                }
+            </script>
+        <script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "name": "ynet news",
+                    "url": "https://www.ynetnews.com/category/3083",
+                    "logo": "https://besttv232-ynet-images1-prod.cdn.it.best-tv.com/picserver5/wcm_upload/2019/03/28/SJ8Xwm9dN/CENTRAL_1024_ynet_logo_en.png",
+                    "sameAs": [
+                        "https://www.facebook.com/ynetenglish/",
+                        "https://twitter.com/ynetnews"
+                    ]
+                }
+                </script> 
+                <script>
+                    window.onload = function () {
+                        if (navigator.userAgent.search("MSIE") >= 0) {
+                            var position = navigator.userAgent.indexOf("MSIE") + 5;
+                            var end = navigator.userAgent.search("; Windows");
+                            var version = navigator.userAgent.substring(position, end);
+                            var version_int = parseInt(version)
+                            if (version_int <= 11) {
+                                $('#old_browser_strip').show();
+                            }
+                        }
+                    }
+                </script>
+            
+                <script type="text/javascript">
+                    window._taboola = window._taboola || [];
+                     
+                    _taboola.push({'category': 'auto', tracking: 'utm_source=Taboola_internal&utm_medium=organic'});
+                    </script>
+                <script type="text/javascript" src="https://cdn.taboola.com/libtrc/ynet-ynetnews/loader.js" async charset="UTF-8"></script>
+            
+                <script type='text/javascript'>
+                    window.should_load_zoomd=false
+                </script>
+            <script async src="https://mrb.upapi.net/code?w=5715103466913792&uponit=true" type="text/javascript"></script><script>var video_ad_yncd = "-1";var video_analytics_src = "ynet";var video_ad_iu = "/6870/ynetnews/desktop/video_preroll/news";var video_ad_iu_mobile = "/6870/ynetnews/mobileweb/video_preroll/news";var video_ad_description_url = "https://www.ynetnews.com/category/3082";</script>
+                <script data-cfasync='false'> 
+                    window.interdeal = {sitekey: "39b1f9fa4c1acfa4abd5e28918299148", Position: "Right", Menulang: "EN"}
+                </script>
+                <script 
+                src="https://js.nagich.co.il/core/1.0.0/accessibility.js" async data-cfasync="false" 
+                integrity="sha512-Y0NPyyjfphZPEfVALhzp3qc97KN78bvQxYuL+Rm8EFUg9sPbyxUlDwtnxgazCw40Y5eqFlLoBG/GbMe9+uEibA==" 
+                crossorigin="anonymous">
+                </script>
+                <style>
+                    #INDmenu-btn svg {
+                        height: 42px !important;
+                        width: auto !important;
+    
+                    }
+    
+                    #INDmenu-btn > svg > path:first-child {
+                        fill: #000033 !important;
+                    }
+    
+                    #INDmenu-btn > svg > path:nth-child(2) {
+                        fill: #fff !important;
+                    }
+                       .INDblackwhite *[style] {
+                       color:White ! important;
+                   }
+                 .INDblackwhite a:hover *, .INDblackwhite a[style]:hover{
+                    color:Black ! important;
+                }
+                .INDwhiteblack *[style] {
+                    color:Black ! important;
+                }
+                .INDwhiteblack a:hover *, .INDwhiteblack a[style]:hover{
+                 color:Black ! important;
+                }
+                </style>  
+             <script type='text/javascript'> var youtube_player = '0' </script><script defer type="text/javascript" src="https://ynet-images1.yit.co.il/Common/frontend/site/prod/vendors-widgets.81738138db7fbf06462f.js"></script><script>var YITSiteWidgets=YITSiteWidgets||[];</script><script defer type="text/javascript" src="https://ynet-images1.yit.co.il/Common/frontend/site/prod/widgets.ce2afe55a988f2a7a4f0.js"></script>
+                    <link rel="stylesheet" href="//player.ynet.co.il/videojs-ima/video-js.min.css" />
+                    <link rel="stylesheet" href="//player.ynet.co.il/videojs-ima/videojs.ads.css" />
+                    <link rel="stylesheet" href="//player.ynet.co.il/videojs-ima/videojs.ima.css" />
+                    <script src="//player.ynet.co.il/videojs-ima/video.min.js"></script>
+                    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+                    
+                    <script src="//player.ynet.co.il/videojs-ima/videojs.ads.min.js"></script>
+                    <script src="//player.ynet.co.il/videojs-ima/videojs.ima.js"></script>
+                    <script src="//player.ynet.co.il/videojs-ima/videojs-contrib-hls.js"></script>
+                <meta property="sub-channel-ID" content="3082"><meta property="sub-channel-name" content="News"><script>
+window.googletag = window.googletag || {cmd: []};
+</script>	
+	<script> window.WCM_POPULARITY_LINK = "https://stats.ynet.co.il/popularity/popularity.php"</script><script> window.siteID = "ynetnews"</script>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta name="keywords"
+          content="israel, news, yedioth, ahronoth, hebrew, jewish, arab, palestine, intifada, update, search, israeli, newspaper, jerusalem, tel aviv, yediot, aharonoth, middle east, west bank, quotes, portal, maccabi, hapoel, beitar,  www.ynet.co.il"/>
+</head>
+<body >
+
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC5SQQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            
+            <script>
+                !function (t, e) {
+                    "use strict";
+                    var i = "classList", n = function (t, i) {
+                        var n = i || {};
+                        this.trigger = t, this.rate = n.rate || 500, this.el = e.getElementsByClassName("iframe-lightbox")[0] || "", this.body = this.el ? this.el.getElementsByClassName("body")[0] : "", this.content = this.el ? this.el.getElementsByClassName("content")[0] : "", this.href = t.dataset.src || "", this.paddingBottom = t.dataset.paddingBottom || "", this.onOpened = n.onOpened, this.onIframeLoaded = n.onIframeLoaded, this.onLoaded = n.onLoaded, this.onCreated = n.onCreated, this.onClosed = n.onClosed, this.init()
+                    };
+                    n.prototype.init = function () {
+                        var t = this;
+                        this.el || this.create();
+                        var e = function (t, e) {
+                            var i, n, o, s;
+                            return function () {
+                                o = this, n = [].slice.call(arguments, 0), s = new Date;
+                                var a = function () {
+                                    var d = new Date - s;
+                                    d < e ? i = setTimeout(a, e - d) : (i = null, t.apply(o, n))
+                                };
+                                i || (i = setTimeout(a, e))
+                            }
+                        }(function (e) {
+                            e.preventDefault(), t.open()
+                        }, this.rate);
+                        this.trigger.addEventListener("click", e)
+                    }, n.prototype.create = function () {
+                        var t = this, n = e.createElement("div");
+                        this.el = e.createElement("div"), this.content = e.createElement("div"), this.body = e.createElement("div"), this.el[i].add("iframe-lightbox"), n[i].add("backdrop"), this.content[i].add("content"), this.body[i].add("body"), this.el.appendChild(n), this.content.appendChild(this.body), this.contentHolder = e.createElement("div"), this.contentHolder[i].add("content-holder"), this.contentHolder.appendChild(this.content), this.el.appendChild(this.contentHolder), e.body.appendChild(this.el), n.addEventListener("click", function () {
+                            t.close()
+                        });
+                        var o = function () {
+                            t.isOpen() || (t.el[i].remove("is-showing"), t.body.innerHTML = "")
+                        };
+                        this.el.addEventListener("transitionend", o, !1), this.el.addEventListener("webkitTransitionEnd", o, !1), this.el.addEventListener("mozTransitionEnd", o, !1), this.el.addEventListener("msTransitionEnd", o, !1), this.callCallback(this.onCreated, this)
+                    }, n.prototype.loadIframe = function () {
+                        var t = this;
+                        this.iframeId = "iframe-lightbox" + Date.now(), this.body.innerHTML = '<iframe src="' + this.href + '" name="' + this.iframeId + '" id="' + this.iframeId + '" onload="this.style.opacity=1;" style="opacity:0;border:none;" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" height="166" frameborder="no"></iframe>', function (n, o) {
+                            e.getElementById(n).onload = function () {
+                                this.style.opacity = 1, o[i].add("is-loaded"), t.callCallback(t.onIframeLoaded, t), t.callCallback(t.onLoaded, t)
+                            }
+                        }(this.iframeId, this.body)
+                    }, n.prototype.open = function () {
+                        this.loadIframe(), this.paddingBottom ? this.content.style.paddingBottom = this.paddingBottom : this.content.removeAttribute("style"), this.el[i].add("is-showing"), this.el[i].add("is-opened"), this.callCallback(this.onOpened, this)
+                    }, n.prototype.close = function () {
+                        this.el[i].remove("is-opened"), this.body[i].remove("is-loaded"), this.callCallback(this.onClosed, this)
+                    }, n.prototype.isOpen = function () {
+                        return this.el[i].contains("is-opened")
+                    }, n.prototype.callCallback = function (t, e) {
+                        "function" == typeof t && t.bind(this)(e)
+                    }, t.IframeLightbox = n
+                }("undefined" != typeof window ? window : this, document);
+            </script>
+        
+                <div id="main">
+                    <div class="area header"></div>
+                </div>
+            
+                        <div id=ads.skyscraper style='position:fixed;top:0;right:0;'>
+                        <script type='text/javascript'>
+                            if (navigator.appName != "Microsoft Internet Explorer") {
+                                if (document.getElementById('ads.skyscraper')) {
+                                    document.getElementById('ads.skyscraper').style.position = "fixed";
+                                }
+                            }
+                            
+                        </script>
+                        </div>
+                    <div id=ads.biglivebox></div><div id=ads.banner style='position:fixed;bottom:0;'>                            
+             <script type="text/javascript"> 
+
+             window.closeBigAd = false;
+             if(window.innerWidth <= '768') {                                     
+                 function waitForElement(elementPath, callBack){
+                           window.setTimeout(function(){
+                             if($(elementPath).length){
+                               callBack(elementPath, $(elementPath));
+                             }else{
+                               waitForElement(elementPath, callBack);
+                             }
+                           },500)
+                     }       
+                 if(document.cookie.indexOf('cookieconsent_status') === -1 && 
+                     window.cookieconsent != undefined) {
+                     document.getElementById("ads.banner").classList.add(
+                     'remove_sticky');
+                     $(window).scroll(function() {
+                         if(window.closeBigAd){
+                             return false;
+                         } 
+                         if ($( ".cc-grower" ).length > 0) {                      
+
+
+
+                         var top_of_element = $(".cc-grower").offset().top;
+                         var bottom_of_element = $(".cc-grower").offset().top + $(
+                         ".cc-grower").outerHeight();
+                         var bottom_of_screen = $(window).scrollTop() + $(
+                         window).height();
+                         var top_of_screen = $(window).scrollTop();
+                         if ((bottom_of_screen > top_of_element) && (
+                         top_of_screen < 
+                         bottom_of_element) && document.cookie.indexOf(
+                         'cookieconsent_status') === -1) {
+                          document.getElementById("ads.banner").classList.add(
+                          'remove_sticky');
+                         } else {
+                            document.getElementById("ads.banner").classList.remove(
+                            'remove_sticky');
+                         }
+                        }
+                     })
+                     waitForElement("#Biglivebox_Close_button",function(){
+                         $('#Biglivebox_Close_button').click(function(){
+                             window.closeBigAd = true;
+                            document.getElementById("ads.banner").classList.remove(
+                            'remove_sticky');     
+                         })
+                     })
+                   }                            
+                 
+              }
+              </script>                              
+        </div><div><div><div class="hContainer ynetnews  verundefined"><script>window.dateFormat="mdy", window.timezone="Asia/Jerusalem", window.languageCode ="en-GB"</script><script>
+window.currentPlayingYoutubePlayer = window.currentPlayingYoutubePlayer || null;
+window.YoutubeAPIControlller  = {
+        _queue: [],
+        _isLoaded: false,
+
+        load: function (component) {
+            // if the API is loaded just create the player
+            if (this._isLoaded) {
+                component.createPlayer()
+            } else {
+                this._queue.push(component)
+            }
+        },
+
+        loadAPI: function () {
+            // load the api
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            var that = this;
+            window.onYouTubeIframeAPIReady = function() {
+                that._isLoaded = true
+                for (let i = that._queue.length; i--;) {
+                    that._queue[i].createPlayer()
+                }
+                that._queue = []
+            }
+        },
+    }
+    setTimeout(function(){window.YoutubeAPIControlller.loadAPI()}, 1000);
+</script><span><span id="BJRmjxWZyi9"></span><script>window.YITSiteWidgets.push(['BJRmjxWZyi9','SiteLinkLightBoxInjector',{}]);</script></span><span><span id="HykNjeZW1iq"></span><script>window.YITSiteWidgets.push(['HykNjeZW1iq','SiteScrollToTopButton',{}]);</script></span><div style="width:980px;direction:ltr;margin:0 auto" class="RelativeElementsContainer site_page_root"><div class="layoutContainer" style="position:relative;min-height:0;padding-bottom:0;width:980px;margin:0 auto;box-sizing:border-box"><div tabindex="0" class="layoutItem top-ad" style="position:relative;top:0;left:0;margin-bottom:0"><span class="no-print no-small-vp"><div style="height:100%"><div id="ads.top"></div></div></span></div></div><div class="layoutContainer" style="position:relative;min-height:0;padding-bottom:0;width:980px;margin:0 auto;box-sizing:border-box"><div tabindex="0" class="layoutItem ynet-news-header" style="position:relative;top:0;left:0;margin-bottom:15px"><div><span class="no-small-vp"><div style="height:"><div class="YnetNewsHeader en"><div class="logoWrapper"><div class="logo"><a aria-label="Ynetnews - news and update 24 hours" id="SkeNogZZJo9" href="https://www.ynetnews.com/category/3083"><img alt="Ynetnews - news and update 24 hours" title="Ynetnews - news and update 24 hours" aria-hidden="true" aria-label="Ynet News Logo" src="https://ynet-images1.yit.co.il/picserver5/wcm_upload/2019/03/28/SJ8Xwm9dN/CENTRAL_1024_ynet_logo_en.png"/></a><div class="seperator"></div></div></div><nav class="linksWrapper" role="navigation" aria-label="Sub Menu"><ul><li class="orangesLi"><a style="color:#444444" id="BJZNieZW1iq" href="https://www.ynetnews.com/category/3082">Israel News</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="r1GNsxWbJi5" href="https://www.ynetnews.com/magazine">Magazine</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="B1XVog11ZJo5" href="https://www.ynetnews.com/category/9733">Middle East</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="HkVNjgZb1sc" href="https://www.ynetnews.com/category/4666">World</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="S1rNjxWWJo9" href="https://www.ynetnews.com/category/3443">Jewish World</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="rkL4il11Zyj5" href="https://www.ynetnews.com/culture">Culture</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="H1vNoe11Wkoc" href="https://www.ynetnews.com/business">Business</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="SJ004ilWWyi9" href="https://www.ynetnews.com/health_science">Health &amp; Science</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="HyKEoebb1oq" href="https://www.ynetnews.com/business/category/10006">Tech</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="S19Njx11Zki5" href="https://www.ynetnews.com/environment">Environment</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="rys4jgbbyi9" href="https://www.ynetnews.com/category/3084">Opinion</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="B1h4ol11Zysc" href="https://www.ynetnews.com/travel">Travel</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#444444" id="r1T4je11bysc" href="http://www.ynetart.co.il/en/?utm_source=ynetnews&amp;utm_medium=banana&amp;utm_campaign=general.EN">Art</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#d71919" id="HJAVjlZb1s9" href="https://www.ynet.co.il/home/0,7340,L-8,00.html">עברית</a><span class="delimeter_li">|</span></li><li class="orangesLi"><a style="color:#d71919" id="r1Jrol1111kiq" href="https://www.ynetespanol.com/">Español</a><span class="delimeter_li">|</span></li></ul></nav><div class="bottom_line"></div></div></div></span><span class="show-small-vp"><div style="height:100%"><span><span id="BJxBjxW11ki5"><div class="YnetNewsHeaderMobile "><div class="YnetNewsHeaderMobileComponenta"><div class="inner-text"></div><div class="inner-logo"><a href="//www.ynetnews.com/"><img src="//www.ynetnews.com/images/ynetnewsresp/logo-menu.png"/></a></div><div class="weather_resp"><div id="cdanwmansrch_weather1"><div id="cdanwmansrch_weathertempsdiv1"><a href="//www.ynetnews.com/weather" class="main_search_nounderlined_link"><span id="cdanwmansrch_weathertemps1">28C</span></a><span id="cdanwmansrch_weatherimage1"><a href="//www.ynetnews.com/weather"><img src="//www.ynet.co.il/Cnt/Images/Weather/1250.png" width="20" height="20"/></a></span></div></div></div><div class="inner-menu"><div class="menu-btn"></div><div class="menu-btn-right-line"></div></div><div class="MobileBg "></div><div class="MobileMenu"><div class="head"><span class="cp-big-h1">Channels</span><a id="INDmenu-btn3" class="follow" accessKey="m" aria-labelledby="INDbtnTooltip" style="position:absolute;top:15px;left:5%"><img src="//www.vesty.co.il/images/nagishot.png" style="width:21px;height:21px"/></a></div><ul><li><div class="color"></div><a href="https://www.ynetnews.com/category/3082"><div class="icon" style="color:#444444">Israel News</div></a></li><li><div class="color"></div><a href="//www.ynetnews.com/home/0,7340,L-3089,00.html"><div class="icon">Breaking News<img src="/images/ynetnewsresp/mivzakim_menu_item.png" class="menu-img-item menu-img-size"/></div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/magazine"><div class="icon" style="color:#444444">Magazine</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/category/9733"><div class="icon" style="color:#444444">Middle East</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/category/4666"><div class="icon" style="color:#444444">World</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/category/3443"><div class="icon" style="color:#444444">Jewish World</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/culture"><div class="icon" style="color:#444444">Culture</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/business"><div class="icon" style="color:#444444">Business</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/health_science"><div class="icon" style="color:#444444">Health &amp; Science</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/business/category/10006"><div class="icon" style="color:#444444">Tech</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/environment"><div class="icon" style="color:#444444">Environment</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/category/3084"><div class="icon" style="color:#444444">Opinion</div></a></li><li><div class="color"></div><a href="https://www.ynetnews.com/travel"><div class="icon" style="color:#444444">Travel</div></a></li><li><div class="color"></div><a href="http://www.ynetart.co.il/en/?utm_source=ynetnews&amp;utm_medium=banana&amp;utm_campaign=general.EN"><div class="icon" style="color:#444444">Art</div></a></li><li><div class="color"></div><a href="https://www.ynet.co.il/home/0,7340,L-8,00.html"><div class="icon" style="color:#d71919">עברית</div></a></li><li><div class="color"></div><a href="https://www.ynetespanol.com/"><div class="icon" style="color:#d71919">Español</div></a></li></ul></div></div></div></span><script>window.YITSiteWidgets.push(['BJxBjxW11ki5','MobileHeaderComponenta',{"weather":[{"temp":28,"imageName":"1250.png","weatherCode":1250,"city":"תל אביב - יפו"},{"temp":31,"imageName":"1250.png","weatherCode":1250,"city":"לוד"},{"temp":28,"imageName":"1250.png","weatherCode":1250,"city":"נצרת"},{"temp":38,"imageName":"1580.png","weatherCode":1580,"city":"עין גדי"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"צפת"},{"temp":37,"imageName":"1580.png","weatherCode":1580,"city":"אילת"},{"temp":32,"imageName":"1310.png","weatherCode":1310,"city":"באר שבע"},{"temp":35,"imageName":"1580.png","weatherCode":1580,"city":"בית שאן"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"חיפה"},{"temp":35,"imageName":"1580.png","weatherCode":1580,"city":"טבריה"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"ירושלים"},{"temp":30,"imageName":"1310.png","weatherCode":1310,"city":"קצרין"},{"temp":29,"imageName":"1250.png","weatherCode":1250,"city":"אשדוד"},{"temp":30,"imageName":"1250.png","weatherCode":1250,"city":"מצפה רמון"},{"temp":32,"imageName":"1310.png","weatherCode":1310,"city":"עפולה"}],"lang":"en","items":[{"name":"Israel News","link":"https://www.ynetnews.com/category/3082","mobileIcon":"","color":"#444444"},{"name":"Magazine","link":"https://www.ynetnews.com/magazine","mobileIcon":"","color":"#444444"},{"name":"Middle East","link":"https://www.ynetnews.com/category/9733","mobileIcon":"","color":"#444444"},{"name":"World","link":"https://www.ynetnews.com/category/4666","mobileIcon":"","color":"#444444"},{"name":"Jewish World","link":"https://www.ynetnews.com/category/3443","mobileIcon":"","color":"#444444"},{"name":"Culture","link":"https://www.ynetnews.com/culture","mobileIcon":"","color":"#444444"},{"name":"Business","link":"https://www.ynetnews.com/business","mobileIcon":"","color":"#444444"},{"name":"Health & Science","link":"https://www.ynetnews.com/health_science","mobileIcon":"","color":"#444444"},{"name":"Tech","link":"https://www.ynetnews.com/business/category/10006","mobileIcon":"","color":"#444444"},{"name":"Environment","link":"https://www.ynetnews.com/environment","mobileIcon":"","color":"#444444"},{"name":"Opinion","link":"https://www.ynetnews.com/category/3084","mobileIcon":"","color":"#444444"},{"name":"Travel","link":"https://www.ynetnews.com/travel","mobileIcon":"","color":"#444444"},{"name":"Art","link":"http://www.ynetart.co.il/en/?utm_source=ynetnews&utm_medium=banana&utm_campaign=general.EN","mobileIcon":"","color":"#444444"},{"name":"עברית","link":"https://www.ynet.co.il/home/0,7340,L-8,00.html","mobileIcon":"","color":"#d71919"},{"name":"Español","link":"https://www.ynetespanol.com/","mobileIcon":"","color":"#d71919"}]}]);</script></span></div></span></div></div></div><div class="layoutContainer" style="position:relative;min-height:4728px;padding-bottom:0;width:980px;margin:0 auto;box-sizing:border-box"><div tabindex="0" class="layoutItem ynet-news-english-search" style="position:absolute;top:0;left:0;height:31px;width:980px"><span class="no-small-vp"><div style="height:100%"><span><span id="SJ11rje11byjc"><div class="ynetNewsSearch en"><div class="main_search"><div class="main_search_elements" id="mainSrchElements"><a href="javascript:void(0);" id="MsBtn" class="en" role="button"></a><div id="main_search_bg"><div id="mainSrchBoxInput"><input type="text" alt="חיפוש" class="mainSrchclass" id="mainSrchBox" aria-label="חיפוש" value="" style="background:#fff"/></div></div></div><div class="iframe_combina_container"><div class="main_search_social main_search_elements"><a style="margin-left:30px"><img src="/images/face.png" alt="ynetnews on Facebook" title="ynetnews on Facebook"/></a><a><img src="/images/twitter.png" alt="ynetnews on Twitter" title="ynetnews on Twitter" width="35" height="35"/></a></div></div><div id="main_search_weather" class="main_search_elements"><div id="cdanwmansrch_weather"><span>Weather:</span><div id="cdanwmansrch_weathertempsdiv"><div class="weathertempsdiv"><a class="main_search_nounderlined_link" href="https://www.ynetnews.com/weather"><span class="weathertemps">28C</span></a></div><div class="weatherimage"><a href="https://www.ynetnews.com/weather" aria-label="WEATHER"><img height="20" src="/Cnt/Images/Weather/1250.png" aria-hidden="true" width="20"/></a></div><div id="mainWeatherSelect"><select id="weathercityselect" aria-label="CHOOSE A CITY" class="weathercitieselect"><option selected="" value="0">Tel Aviv-Jaffa</option><option value="1">Lod</option><option value="2">Nazareth</option><option value="3">En Gedi</option><option value="4">Zefat</option><option value="5">Eilat</option><option value="6">Beer Sheva</option><option value="7">Bet Shean</option><option value="8">Haifa</option><option value="9">Tiberias</option><option value="10">Jerusalem</option><option value="11">Qazrin</option><option value="12">Ashdod</option><option value="13">Mizpe Ramon</option><option value="14">Afula</option></select></div></div></div><div class="main_search_sep2 main_search_elements"><img src="/images/mainsearch_sep.png" aria-hidden="true"/></div></div></div></div></span><script>window.YITSiteWidgets.push(['SJ11rje11byjc','YnetNewsSearch',{"weather":[{"temp":28,"imageName":"1250.png","weatherCode":1250,"city":"תל אביב - יפו"},{"temp":31,"imageName":"1250.png","weatherCode":1250,"city":"לוד"},{"temp":28,"imageName":"1250.png","weatherCode":1250,"city":"נצרת"},{"temp":38,"imageName":"1580.png","weatherCode":1580,"city":"עין גדי"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"צפת"},{"temp":37,"imageName":"1580.png","weatherCode":1580,"city":"אילת"},{"temp":32,"imageName":"1310.png","weatherCode":1310,"city":"באר שבע"},{"temp":35,"imageName":"1580.png","weatherCode":1580,"city":"בית שאן"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"חיפה"},{"temp":35,"imageName":"1580.png","weatherCode":1580,"city":"טבריה"},{"temp":27,"imageName":"1250.png","weatherCode":1250,"city":"ירושלים"},{"temp":30,"imageName":"1310.png","weatherCode":1310,"city":"קצרין"},{"temp":29,"imageName":"1250.png","weatherCode":1250,"city":"אשדוד"},{"temp":30,"imageName":"1250.png","weatherCode":1250,"city":"מצפה רמון"},{"temp":32,"imageName":"1310.png","weatherCode":1310,"city":"עפולה"}],"currency":[{"name":"ruble","imageName":"//www.vesty.co.il/images/currency_ruble.png","value":0},{"name":"dollar","imageName":"//www.vesty.co.il/images/currency_dollar.png","value":0},{"name":"euro","imageName":"//www.vesty.co.il/images/currency_euro.png","value":0}],"lang":"en","weatherUrl":"https://www.ynetnews.com/weather"}]);</script></span></div></span></div><div tabindex="0" class="layoutItem category-image" style="position:absolute;top:46px;left:0;height:65px;width:980px"><span class="no-small-vp"><div style="height:100%"><div class="CategoryImageComponenta"><a aria-label="News" id="r1zrjxZbJj5" href="https://www.ynetnews.com/category/3082"><img aria-hidden="true" height="70" src="https://ynet-images1.yit.co.il/picserver5/wcm_upload/2019/03/28/Hy4h1U5dN/11111.jpg"/></a></div></div></span></div><div tabindex="0" class="layoutItem article-headlines-english" style="position:absolute;top:126px;left:0;height:4587px;width:660px"><div style="height:"><div class="MultiArticleComponenta ArticleHeadlinesAuto englishSite  "><div class="slotContentDiv" style="height:4587px"><div class="slotsContent"><div class="slotList"><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/skiwk0rcc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/16/rkwzVgKYc/rkwzVgKYc_0_0_850_479_0_medium.jpg" width="110" height="62" alt="הקליע שהרג את שירין אבו אעקלה" aria-hidden="false" title="Shireen Abu Akleh, the bullet that killed her  
+   "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/skiwk0rcc" style="color:#000000"> Israel says will test bullet that killed reporter, Palestinians disagree </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/skiwk0rcc" style="color:#000000"> General prosecutor for PA says ballistic test to be conducted in the presence of Americans with guarantees Israel will remain uninvolved; case is political test for Lapid ahead of President Biden&#x27;s visit  </a></div><div class="moreDetails"><span class="author">Reuters</span><span class="commaView"> , </span><span class="dateView"> 12:34, 07.03.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sysataa95"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/07/03/HJZwitRC9c/HJZwitRC9c_40_172_1055_594_0_medium.jpg" width="110" height="62" alt="ישיבת ממשלה" aria-hidden="false" title="The weekly cabinet meeting led for the first time by Prime Minister Yair Lapid  (Photo: GPO) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sysataa95" style="color:#000000"> Lapid tells cabinet to conduct itself &#x27;as if there&#x27;s no elections&#x27; </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sysataa95" style="color:#000000"> Speaking at the start of his first weekly cabinet meeting, Lapid says Israeli public deserves government that functions all the time; adds critical health and education matters must not be delayed </a></div><div class="moreDetails"><span class="author">Einav Halabi</span><span class="commaView"> , </span><span class="dateView"> 12:04, 07.03.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sygi0h0cc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/16/rkwzVgKYc/rkwzVgKYc_0_0_850_479_0_medium.jpg" width="110" height="62" alt="הקליע שהרג את שירין אבו אעקלה" aria-hidden="false" title="Shireen Abu Akleh, the bullet that killed her    "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sygi0h0cc" style="color:#000000"> Palestinians give bullet that killed journalist to U.S. team  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sygi0h0cc" style="color:#000000"> Palestinian attorney general, Akram al-Khateeb, says bullet was given to American experts &#x27;for technical work&#x27; but unclear what the they could discover without also studying the Israeli weapon </a></div><div class="moreDetails"><span class="author">Associated Press</span><span class="commaView"> , </span><span class="dateView"> 10:15, 07.03.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hjc4gba55#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/07/02/SkWaqeAcc/SkWaqeAcc_0_0_850_479_0_medium.jpg" width="110" height="62" alt="Hezbollah leader Hassan Nasrallah; Karish gas field" aria-hidden="false" title="Hezbollah leader Hassan Nasrallah; Karish gas field (Photo: Albatross, IDF Spokesperson&#x27;s Unit) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hjc4gba55#autoplay" style="color:#000000"> Israel intercepts 3 Hezbollah drones en route to contentious offshore gas field </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hjc4gba55#autoplay" style="color:#000000"> Fighter jets scramble to shoot down drones on their way to Karish gas field; Gantz says attack is an attempt by Iranian-backed proxy to undermine ongoing maritime border demarcation talks between Jerusalem and Beirut; Lapid: Do not try us </a></div><div class="moreDetails"><span class="author">Yoav Zitun</span><span class="commaView"> , </span><span class="dateView"> 21:27, 07.02.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/ryl08v6cc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/07/02/BJgDou8T95/BJgDou8T95_0_0_720_540_0_medium.jpg" width="110" height="62" alt="ההרס לאחר התקיפה" aria-hidden="false" title="Aftermath of attack near Tartus Syria blames on Israel   "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/ryl08v6cc" style="color:#000000"> Syria says two civilians hurt in &#x27;Israeli aggression&#x27; south of Tartus </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/ryl08v6cc" style="color:#000000"> According to Damascus, several Israeli missiles fired from west of Tripoli, Lebanon hit targets outside major port city in morning hours, causing injuries and material damage </a></div><div class="moreDetails"><span class="author">Liad Osmo</span><span class="commaView"> , </span><span class="dateView"> 09:57, 07.02.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rkkslln5c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/rymvOSs9c/rymvOSs9c_0_247_2195_1235_0_medium.jpg" width="110" height="62" alt="יאיר לפיד" aria-hidden="false" title="Yair Lapid  (Photo: Avi Ochion, GPO) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rkkslln5c" style="color:#000000"> Yair Lapid officially takes over Israel&#x27;s premiership </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rkkslln5c" style="color:#000000"> Biden congratulates the interim premier, saying he is looking forward to seeing him &#x27;in July to celebrate the unbreakable U.S.-Israel partnership&#x27; </a></div><div class="moreDetails"><span class="author">i24NEWS</span><span class="commaView"> , </span><span class="dateView"> 13:53, 07.01.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hk3bpso5c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/03/03/10572224/10572224_0_26_980_552_0_medium.jpg" width="110" height="62" alt="בנימין נתניהו ודונלד טראמפ" aria-hidden="false" title="Bejamin Netanyahu and Donald Trump  (Photo: EPA) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hk3bpso5c" style="color:#000000"> Trump says would consider backing Netanyahu in upcoming Israeli polls </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hk3bpso5c" style="color:#000000"> Former U.S. president sounds noncommittal on supporting once-close-ally seeking reelection, who he says he was &#x27;disappointed with him in certain ways&#x27;; &#x27;we&#x27;ll see what happens&#x27; </a></div><div class="moreDetails"><span class="author">Ynet</span><span class="commaView"> , </span><span class="dateView"> 22:42, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sj1rkws5q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/04/07/SkPci2cHO/SkPci2cHO_0_0_3000_1867_0_medium.jpg" width="110" height="62" alt="Diplomats of the EU, China, Russia and Iran at the start of talks on a U.S. return to the 2015 nuclear deal, at the Grand Hotel in Vienna" aria-hidden="false" title="Diplomats of the EU, China, Russia and Iran at the start of talks on a U.S. return to the 2015 nuclear deal, at the Grand Hotel in Vienna, April 2021  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sj1rkws5q" style="color:#000000"> EU worries may not cross &#x27;finishing line&#x27; to revive Iran nuclear deal </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sj1rkws5q" style="color:#000000"> Envoy to UN tells Security Council to &#x27;seize this opportunity to conclude the deal, based on the text that is on the table&#x27; as fresh round of indirect talks between Tehran and Washington in Qatar hits a snag </a></div><div class="moreDetails"><span class="author">Reuters</span><span class="commaView"> , </span><span class="dateView"> 21:36, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/byvnqzi9c#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/rJn8mJi9c/rJn8mJi9c_0_0_1216_685_0_medium.jpg" width="110" height="62" alt="ישראלי שנלחם בצבא אוקראינה נלקח בשבי על ידי רוסיה" aria-hidden="false" title="Vladimir Kozlovsky "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/byvnqzi9c#autoplay" style="color:#000000"> Israeli fighting for Ukraine taken captive by pro-Russian separatists   </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/byvnqzi9c#autoplay" style="color:#000000"> Vladimir Kozlovsky, Israeli national residing in Ukraine, says was conscripted despite receiving authorization from Israeli consulate to leave country and says was &#x27;thrown to battleground like cannon fodder&#x27; without proper combat training </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 19:17, 06.30.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h191fboc9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/rJD4gZo5c/rJD4gZo5c_0_134_1280_720_0_medium.jpg" width="110" height="62" alt="בנט ולפיד בהעברת המקל" aria-hidden="false" title="Gilat and Naftali Bennett, Yair and Lihi Lapid  (Photo: GPO) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h191fboc9" style="color:#000000"> &#x27;Good luck my brother,&#x27; Bennett tells Lapid as he hands over the premiership  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h191fboc9" style="color:#000000"> Bennett says role of prime minister belongs to the people of Israel and not any one person; &#x27;I pass on to you the sacred baton with the responsibility over the country&#x27;; two men hold comprehensive briefing on security and other matters  </a></div><div class="moreDetails"><span class="author">Itamar EIchner</span><span class="commaView"> , </span><span class="dateView"> 14:07, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/syj800es5q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/HJE002Jsqc/HJE002Jsqc_0_0_1280_720_0_medium.jpg" width="110" height="62" alt="לפיד ביד ושם" aria-hidden="false" title="Yair Lapid at Yad Vashem  (Photo: GPO) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/syj800es5q" style="color:#000000"> At Yad Vashem, Lapid vows to secure Israel&#x27;s might </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/syj800es5q" style="color:#000000"> Incoming PM honors late Holocaust survivor father before taking over from Naftali Bennett, will head his first cabinet meeting next week and leave for official visit to France before hosting U.S. president </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 13:27, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/b16qpr95c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/H1vvcA5q9/H1vvcA5q9_332_326_2101_1183_0_medium.jpg" width="110" height="62" alt="נפתלי בנט ויאיר לפיד" aria-hidden="false" title="Naftali Bennett and Yair Lapid  (Photo: Yoav Dudkevitch) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/b16qpr95c" style="color:#000000"> Lapid to become prime minister as Knesset dissolves  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/b16qpr95c" style="color:#000000"> Legislature dissolved after 92-0 vote after days-long holdup; Bennett hands premiership to his coalition partner who stands to head caretaker government; critical infrastructure bill and amendment for Israel to join U.S. Visa Waiver Program blocked </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 11:29, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/ryffsncc9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/29/SJ11NcJV9c5/SJ11NcJV9c5_4_0_653_367_0_medium.jpg" width="110" height="62" alt="מליאת הכנסת" aria-hidden="false" title="The Knesset debates dissolution bill  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/ryffsncc9" style="color:#000000"> Knesset passes law to dissolve parliament, elections set for November 1 </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/ryffsncc9" style="color:#000000"> Bill completed in committee overnight in preparation for final vote expected mid-morning after expedited process put in place; Lapid becomes prime minister of caretaker government until new government is formed  </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 09:05, 06.30.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/skpr4j955#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/30/BJxv11p005c9/BJxv11p005c9_0_173_482_272_0_medium.jpg" width="110" height="62" alt="מתפללים לאחר הפיגוע בקבר יוסף" aria-hidden="false" title="Jewish worshipers come under fire from Palestinian gunmen near Joseph&#x27;s Tomb in Nablus early Thursday (צילום: ציון משה ביטון) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/skpr4j955#autoplay" style="color:#000000"> Palestinian gunmen open fire on worshipers at Nablus shrine, 3 hurt </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/skpr4j955#autoplay" style="color:#000000"> IDF escorts hundreds to shrine known as Joseph&#x27;s Tomb on outskirts of West Bank city for religious festivities; brigade commander among injured as troops return fire and evacuates worshipers from the area </a></div><div class="moreDetails"><span class="author">Ynet, Associated Press</span><span class="commaView"> , </span><span class="dateView"> 07:26, 06.30.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/syh3ozcqc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/29/rJyc6119qq/rJyc6119qq_0_0_1773_998_0_medium.jpg" width="110" height="62" alt="נפתלי בנט בנאום הפרישה" aria-hidden="false" title="Bennett announces he will not seek reelection  (Photo: Reuters) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/syh3ozcqc" style="color:#000000"> Bennett announces he will not run in upcoming elections </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/syh3ozcqc" style="color:#000000"> After losing Knesset majority and moving to dissolve parliament, outgoing prime minister says he will not seek re-election and thanks ministers for service; says his government proved it is possible to work together even with ideological differences  </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 20:42, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bynj11g599"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/03/30/H1ohZ6Z7q/H1ohZ6Z7q_0_28_1280_721_0_medium.jpg" width="110" height="62" alt="הרצוג בארמונו של עבדאללה מלך ירדן" aria-hidden="false" title="President Isaac Herzog and King Abdullah II  (Photo: GPO) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bynj11g599" style="color:#000000"> Herzog meets with Jordan&#x27;s King Abdullah ahead of Biden visit </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bynj11g599" style="color:#000000"> The two leaders met at the invitation of the king, in the royal palace in Amman,  to discuss strategic, regional and bilateral issues in their third meeting since Herzog took office </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 19:27, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sk00wecf5q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/07/22/S1XgEHoURd/S1XgEHoURd_0_312_3000_1689_0_medium.jpg" width="110" height="62" alt="מפעל בן אנד ג&#x27;ריס בבאר טוביה" aria-hidden="false" title="Ben &amp;amp; Jerry&#x27;s  (Photo: EPA) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sk00wecf5q" style="color:#000000"> Unilever to continue selling Ben&amp;Jerry&#x27;s in West Bank settlements </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sk00wecf5q" style="color:#000000"> Owner of ice cream maker reverses subsidiary&#x27;s decision to ban sales in disputed territories; local dealer thanks multinational firm for standing up to BDS pressure; Lapid hails decision as win for dialogue </a></div><div class="moreDetails"><span class="author">Itamar Eichner, Meirav Crystal</span><span class="commaView"> , </span><span class="dateView"> 17:45, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rjxihjt99"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/rkN6iT6g59/rkN6iT6g59_0_313_3000_1688_0_medium.jpg" width="110" height="62" alt="מליאת הכנסת" aria-hidden="false" title="Plenum meeting in the Knesset  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rjxihjt99" style="color:#000000"> Israel takes another step toward elections as Knesset dispersal bill okayed in 1st reading </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rjxihjt99" style="color:#000000"> Bill will now proceed to its third reading, which requires a majority approval of 61 votes, where date of elections will also be set; in addition, Knesset okays bill meant to increase funding of political parties during elections by NIS200 million  </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 15:59, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bkifk5y99"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/04/26/Bk2CqDHr9/Bk2CqDHr9_129_418_2399_1351_0_medium.jpg" width="110" height="62" alt="כוח יוניפי&quot;ל בדרום לבנון" aria-hidden="false" title="UNIFIL forces is Lebanon  (Photo: Reuters) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bkifk5y99" style="color:#000000"> Gantz says Iran and Hezbollah tried to hack UN peacekeepers in Lebanon </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bkifk5y99" style="color:#000000"> Defense minister claims Tehran and its Lebanese proxy planned to use cyberattacks against UNIFIL forces in order to acquire intel on its deployment to be used by Hezbollah operatives </a></div><div class="moreDetails"><span class="author">Reuters, Ynet</span><span class="commaView"> , </span><span class="dateView"> 13:51, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hyfpnok5q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/06/01/10748475/10748475_1_0_980_551_0_medium.jpg" width="110" height="62" alt="מימין: אברה מנגיסטו, הישאם א-סייד, אורון שאול והדר גולדין" aria-hidden="false" title="Two soldiers whose bodies held by Hamas and two Israeli captives  (Photo: Courtesy) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hyfpnok5q" style="color:#000000"> Israel opts not to agree to partial prisoner swap with Hamas, sources say  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hyfpnok5q" style="color:#000000"> Sources tell Ynet that Bennett and Lapid vote not to agree to a deal proposed by terror group, which offered to exchange Hisham al-Sayed for sick Palestinian prisoners held by Israel, without including bodies of dead IDF soldiers  </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 13:27, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/ry81y00y9c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/03/14/rJufqziX00/rJufqziX00_1_59_3000_1689_0_medium.jpg" width="110" height="62" alt="יהודה משי זהב" aria-hidden="false" title="Yehuda Meshi-Zahav  (Photo: Dana Kopel) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/ry81y00y9c" style="color:#000000"> Disgraced ZAKA founder Meshi-Zahav passes away a year after suicide attempt </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/ry81y00y9c" style="color:#000000"> The 62-year-old former chief of a volunteer paramedic service dies at the hospital where he was treated, having attempted to take his life when accusations claiming he sexually abused many women and children came to light  </a></div><div class="moreDetails"><span class="author">Associated Press</span><span class="commaView"> , </span><span class="dateView"> 11:35, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/s1lprot99"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/Sy45BRd5q/Sy45BRd5q_0_193_3000_1688_0_medium.jpg" width="110" height="62" alt="יאיר לפיד" aria-hidden="false" title="Foreign Minister Yair Lapid  "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/s1lprot99" style="color:#000000"> As Israel set to finalize Knesset dispersal, Lapid readies to take on premiership </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/s1lprot99" style="color:#000000"> Current FM and ex-TV anchor is set to head a caretaker government, ahead of polls due in Autumn, from midnight when Bennett&#x27;s eight-party alliance is expected to end, barring any 11th hour shock agreements </a></div><div class="moreDetails"><span class="author">AFP, Ynet</span><span class="commaView"> , </span><span class="dateView"> 10:04, 06.29.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bkjtntoqq"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/02/03/rkUxZct0t/rkUxZct0t_0_0_850_479_0_medium.jpg" width="110" height="62" alt="יאיר לפיד,  יבגן קורניצ&#x27;וק" aria-hidden="false" title="Foreign Affairs Minister Yair Lapid and Ambassador Yevhen Korniichuk  (Photo: Alex Kolomoiski, Israel&#x27;s Ukrainian Embassy) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bkjtntoqq" style="color:#000000"> Ukraine envoy says Israel is &#x27;open to oligarchs, not Ukrainian refugees&#x27; </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bkjtntoqq" style="color:#000000"> In a Twitter post, Ambassador Yevhen Korniichuk slams Israel for placing what he says &#x27;unneeded&#x27; restrictions and regulations on refugees seeking to enter Jewish state; warns Ukraine may pause visa exemption for Israelis in response   </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 23:41, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rkascrdq5#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/r1AFcK00c5/r1AFcK00c5_2_0_1275_718_0_medium.jpg" width="110" height="62" alt="תיעוד: השבוי הישראלי בידי חמאס" aria-hidden="false" title="Hisham al-Sayed "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rkascrdq5#autoplay" style="color:#000000"> Hamas willing to exchange Israeli captive for sick Palestinian prisoners, report says </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rkascrdq5#autoplay" style="color:#000000"> Lebanese Al Mayadeen channel says terror group offers Egyptian negotiators swap on humanitarian grounds, dropping demands for prisoners involved in killing Israelis and those arrested after previous release deal  </a></div><div class="moreDetails"><span class="author">Elior Levy</span><span class="commaView"> , </span><span class="dateView"> 23:13, 06.28.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/synxcjdc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/Sy2Pncu9c/Sy2Pncu9c_0_0_850_479_0_medium.jpg" width="110" height="62" alt="בנימין נתניהו בישיבת הסיעה" aria-hidden="false" title="Likud head Benjamin Netanyahu and U.S. Ambassador Tom Nides  (Photo: Yoav Dodkwitz, AP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/synxcjdc5" style="color:#000000"> U.S. ambassador appeals to Likud to allow legislation required for visa waiver plan </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/synxcjdc5" style="color:#000000"> U.S. ambassador urges MKs not to delay  legislation process; Shaked slams Likud for causing Israelis to continue cumbersome visa request process, claiming waiver could be in place by early 2023 </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 22:20, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hkjdpfd59"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/04/05/Bk4PvcK7c/Bk4PvcK7c_0_317_636_358_0_medium.jpg" width="110" height="62" alt="פידא כיוואן" aria-hidden="false" title="Fida Kiwan    "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hkjdpfd59" style="color:#000000"> UAE court reverses drug related death sentence for Israeli woman </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hkjdpfd59" style="color:#000000"> Haifa resident Fida Kiwan arrested after large amount of cocaine had been found in her apartment in Abu Dhabi last year; after claiming drugs were not hers, death sentence to be replaced by prison term </a></div><div class="moreDetails"><span class="author">Itamar Eichner, Einav Halbi</span><span class="commaView"> , </span><span class="dateView"> 19:36, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bylectu5q#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/rJjOhKO5c/rJjOhKO5c_0_0_850_479_0_medium.jpg" width="110" height="62" alt="תיעוד: השבוי הישראלי בידי חמאס" aria-hidden="false" title="Hisham al-Sayed in Hamas video clip with Israeli ID  "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bylectu5q#autoplay" style="color:#000000"> Bennett blasts Hamas for showing Israeli captive with oxygen mask </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bylectu5q#autoplay" style="color:#000000"> PM says clip publication an act of desperation by terror group; Al-Sayed seen lying in bed with his identity card nearby, while television broadcasting pictures from a conference held this week in Qatar </a></div><div class="moreDetails"><span class="author">Elior Levy</span><span class="commaView"> , </span><span class="dateView"> 18:20, 06.28.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bkzqp5oq5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/r1nTXab9c/r1nTXab9c_0_0_850_479_0_medium.jpg" width="110" height="62" alt="כוחות ביטחון טורקיים באיסטנבול" aria-hidden="false" title="Turkish security forces, Hotel housing suspected Iranian terror squad  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bkzqp5oq5" style="color:#000000"> Israel downgrades travel warning for Turkey as immediate Iranian threat diffused   </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bkzqp5oq5" style="color:#000000"> Foreign Ministry still advises Israelis to avoid unnecessary travel to Turkey since Iranian motivation to strike Israelis appears unchanged; NSC official says if new threats identified, highest level of warning could return   </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 18:15, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bkiz11do9c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/rywSZEOcc/rywSZEOcc_0_0_850_479_0_medium.jpg" width="110" height="62" alt="Opposition Leader Benjamin Netanyahu and Interior Minister Ayelet Shaked " aria-hidden="false" title="Opposition Leader Benjamin Netanyahu and Interior Minister Ayelet Shaked  (Photo: Dana Kopel, Shutterstock, Yoav Dudkevitch) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bkiz11do9c" style="color:#000000"> Knesset squabble jams up Israel&#x27;s accession to U.S. Visa Waiver Program </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bkiz11do9c" style="color:#000000"> Opposition refuses to back two key bills required by Washington before dispersal of parliament due to procedural matters; ambassador warns impasse could delay Israel&#x27;s induction into program by many months </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 14:32, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hywoxsu59"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/28/r1l1uKVdc5/r1l1uKVdc5_0_0_850_479_0_medium.jpg" width="110" height="62" alt="ראש הממשלה נפתלי בנט" aria-hidden="false" title="Infrastructure damage from cyber attack in Iran; Prime Minister Naftali Bennett  (Photo: Dana Kopel) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hywoxsu59" style="color:#000000"> &#x27;If you mess with Israel, you pay a price,&#x27; says Bennett in message to Iran </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hywoxsu59" style="color:#000000"> Speaking at TAU&#x27;s cyber week, outgoing premier says Israel never seeks to &#x27;create destruction and terror,&#x27; but will not allow its enemies to harm it without a response; adds cyber will be &#x27;most prominent area of combat in future&#x27; </a></div><div class="moreDetails"><span class="author">Nina Fox</span><span class="commaView"> , </span><span class="dateView"> 12:31, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rjbpymdc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/27/ryHdZDDcc/ryHdZDDcc_3_0_1278_719_0_medium.jpg" width="110" height="62" alt="ירדן נמל עקבה גז רעיל הרוגים נפגעים רבים" aria-hidden="false" title="Jordan law enforcement treat the wounded "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rjbpymdc5" style="color:#000000"> Israel offers Jordan aid following toxic gas blast at Port of Aqaba </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rjbpymdc5" style="color:#000000"> Gantz says Israeli defense establishment ready to assist with any effort, by any means necessary; Jordanian state-run TV outlets said that the death toll from the blast had risen to 13 </a></div><div class="moreDetails"><span class="author">i24NEWS</span><span class="commaView"> , </span><span class="dateView"> 09:42, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/gettb1t1e"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/rkN6iT6g59/rkN6iT6g59_0_312_3000_1689_0_medium.jpg" width="110" height="62" alt="מליאת הכנסת" aria-hidden="false" title="The Knesset Plenum  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/gettb1t1e" style="color:#000000"> Knesset dispersal bill moves forward after all-nighter in parliament </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/gettb1t1e" style="color:#000000"> Legislation passes 53-0, putting legislature on fast track to dissolution by Wednesday; coalition, opposition wrangle over bill to fund construction of subway system to ease Israel&#x27;s perennial traffic problem </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 09:29, 06.28.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sju0b5vq5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/rkN6iT6g59/rkN6iT6g59_0_312_3000_1689_0_medium.jpg" width="110" height="62" alt="מליאת הכנסת" aria-hidden="false" title="The Knesset Plenum  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sju0b5vq5" style="color:#000000"> Knesset to vote on its dissolution on Wednesday after negotiations snag </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sju0b5vq5" style="color:#000000"> After hours of horse-trading, coalition and opposition announce new elections to be held on either October 25 and November 1; bill to block Netanyahu will not go forward </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 23:46, 06.27.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rjsc3pwqq#autoplay"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2020/04/12/SJSgM5ldI/SJSgM5ldI_0_0_640_360_0_medium.jpg" width="110" height="62" alt="Abra Mengistu, and Hisham a-Side" aria-hidden="false" title="Avera Mengistu and Hisham al-Sayed  (Photo: Courtesy of the families) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rjsc3pwqq#autoplay" style="color:#000000"> Hamas says medical condition of Israeli captive deteriorating </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rjsc3pwqq#autoplay" style="color:#000000"> Terror group did not specify whom it was referring to, but Israeli nationals Avera Mengistu and Hisham al-Sayed are believed to be held alive in captivity; Israeli sources dismiss announcement as &#x27;provocation&#x27; </a></div><div class="moreDetails"><span class="author">Elior Levy</span><span class="commaView"> , </span><span class="dateView"> 21:34, 06.27.22  </span><div class="videoIcon english blue"><span class="icon"></span></div></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h19oendc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/r1bu9Uag99/r1bu9Uag99_0_0_1280_855_0_medium.jpg" width="110" height="62" alt="בני גנץ ואביב כוכבי" aria-hidden="false" title="Defense Minister Benny Gantz  (Photo: Effie Sharir) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h19oendc5" style="color:#000000"> Israel to work with world powers to shape any Iran nuclear deal, Gantz says </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h19oendc5" style="color:#000000"> Speaking to reporters, defense minister adds that &#x27;it would be proper to make clear that Israel does not oppose a nuclear deal in itself, it opposes a bad deal&#x27; </a></div><div class="moreDetails"><span class="author">Reuters</span><span class="commaView"> , </span><span class="dateView"> 16:52, 06.27.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/r1touzvcq"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/03/23/SJKINWv4O/SJKINWv4O_0_139_3000_1689_0_medium.jpg" width="110" height="62" alt="קלפי בבני ברק" aria-hidden="false" title="Ballot box in Bnei Brak  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/r1touzvcq" style="color:#000000"> Knesset stalls on dispersion vote as it fights over election date </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/r1touzvcq" style="color:#000000"> MKs await House Committee&#x27;s approval to dissolve parliament before legislation can be tabled in first reading, while lawmakers still undecided on date, without which, Knesset cannot be dispersed </a></div><div class="moreDetails"><span class="author">Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 15:25, 06.27.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h1hruywq5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/04/26/H1211X00HHc/H1211X00HHc_159_295_2621_1476_0_medium.jpg" width="110" height="62" alt="פועלים פלסטינים חוצים מרצועת עזה לישראל במעבר ארז" aria-hidden="false" title="The Erez Crossing (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h1hruywq5" style="color:#000000"> Gazan workers line up to enter Israel as permit boost comes into effect </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h1hruywq5" style="color:#000000"> Some 14,000 merchants were allowed to enter Israel on Monday after 15 years of financial distress caused by a blockade imposed with following takeover by Hamas; &#x27;If we&#x27;re working, if we have food then everything is okay,&#x27; says one merchant </a></div><div class="moreDetails"><span class="author">Matan Tzuri</span><span class="commaView"> , </span><span class="dateView"> 13:22, 06.27.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rkmuc00bc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/25/Syeqce1H95/Syeqce1H95_0_0_1280_853_0_medium.jpg" width="110" height="62" alt="טלאל אלקרנאווי ראש עיריית רהט" aria-hidden="false" title="Head of Future of the Negev party and Rahat Mayor Talal Alkernawi  (Photo: Herzel Yossef, Hanegev News Agency) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rkmuc00bc5" style="color:#000000"> Arab parties fear new faction working for Negev&#x27;s Bedouins will split vote </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rkmuc00bc5" style="color:#000000"> The Future of the Negev party is made up of 20% women, aiming to threaten the Islamic Ra&#x27;am faction and the predominantly Arab Joint List; &#x27;Our goal is to put the Negev on the economic-educational map,&#x27; says party official </a></div><div class="moreDetails"><span class="author">Einav Halabi</span><span class="commaView"> , </span><span class="dateView"> 10:09, 06.27.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bj1i11z89q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/26/By9IXb859/By9IXb859_0_5_1024_577_0_medium.jpg" width="110" height="62" alt="תיעוד מבפנים – מסוק העתיד של חיל האוויר" aria-hidden="false" title="Sikorsky CH-53K helicopter  (Photo: Lockheed Martin) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bj1i11z89q" style="color:#000000"> Israel&#x27;s political crisis may further snag IDF purchase of advanced helicopters </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bj1i11z89q" style="color:#000000"> Israeli Air Force expected to receive its first Sikorsky CH-53K helicopter in 2026, as its predecessor is expected to be decommissioned in 2025 after more than 50 years of service </a></div><div class="moreDetails"><span class="author">Yoav Zitun</span><span class="commaView"> , </span><span class="dateView"> 22:06, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hk11s2ei99"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/04/26/H1211X00HHc/H1211X00HHc_1_200_3000_1689_0_medium.jpg" width="110" height="62" alt="פועלים פלסטינים חוצים מרצועת עזה לישראל במעבר ארז" aria-hidden="false" title="Palestinian workers entering Israel through the Erez Crossing  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hk11s2ei99" style="color:#000000"> Israel to let more Palestinians work in manufacturing to fill labor shortage </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hk11s2ei99" style="color:#000000"> Jerusalem approves 3,500 additional permits, increasing the total number to 12,000; Israel employs nearly 100,000 West Bank and Gaza Palestinian workers, Population and Immigration Authority says </a></div><div class="moreDetails"><span class="author">Reuters</span><span class="commaView"> , </span><span class="dateView"> 19:29, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h1tc5ahq9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/SydavyeG55/SydavyeG55_0_0_3000_1952_0_medium.jpg" width="110" height="62" alt="שר החוץ יאיר לפיד נפגש עם שר החוץ של טורקיה מבלוט צ&#x27;בושולו ב אנקרה" aria-hidden="false" title="Foreign Minister Yair Lapid  (Photo: Reuters) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h1tc5ahq9" style="color:#000000"> Israeli defense officials in two minds as Iran nuclear talks set to restart </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h1tc5ahq9" style="color:#000000"> Growing number of senior IDF officers said to believe bad nuclear deal more preferable than no deal at all, while Mossad remains stalwart in its opposition to agreement as is </a></div><div class="moreDetails"><span class="author">Yossi Yehoshua</span><span class="commaView"> , </span><span class="dateView"> 19:16, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bjbwfarq9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/26/S111Dk6r99/S111Dk6r99_0_0_850_479_0_medium.jpg" width="110" height="62" alt="אביב כוכבי, פיאד בן חאמד אל-רוואילי" aria-hidden="false" title="Aviv Kochavi, Fayyad bin Hamed Al-Ruwaili  (Photo; Yair Katz) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bjbwfarq9" style="color:#000000"> Israel takes part in secret U.S. talks on Iran with Saudi, Qatar and others, WSJ reports </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bjbwfarq9" style="color:#000000"> In first steps of nascent regional cooperation, participants agree in principle on mechanism to communicate when threats from Iran detected; report comes after Gantz says regional air defense agreement underway </a></div><div class="moreDetails"><span class="author">Ynet</span><span class="commaView"> , </span><span class="dateView"> 15:29, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rj00rk2b9q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/26/H1bodBir9q/H1bodBir9q_0_0_2689_1793_0_medium.jpg" width="110" height="62" alt="ישיבת הממשלה" aria-hidden="false" title="Prime Minister Naftali Bennett in his final cabinet meeting on Sunday  (Photo: Yoav Dudkevitch) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rj00rk2b9q" style="color:#000000"> Bennett tells  ministers to tie loose ends before Knesset dissolved  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rj00rk2b9q" style="color:#000000"> &#x27;Take advantage of every day, every hour and every minute left in order to clear the table,&#x27;  Bennett urges ministers, while thanking them for their &#x27;incredible accomplishments&#x27;; PM prepares to brief Lapid who says will ensure seamless transition  </a></div><div class="moreDetails"><span class="author">Haim Goldich</span><span class="commaView"> , </span><span class="dateView"> 14:14, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rk11wh5r5c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/H1bai6pe55/H1bai6pe55_0_233_3000_1689_0_medium.jpg" width="110" height="62" alt="מליאת הכנסת" aria-hidden="false" title="Knesset plenum  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rk11wh5r5c" style="color:#000000"> Anti-Netanyahu bill triggers heated debates in the Knesset </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rk11wh5r5c" style="color:#000000"> Legislation to prevent indicted candidate from forming a government not expected to reach vote before elections; Netanyahu allies say bill tabled to stop popular leader </a></div><div class="moreDetails"><span class="author">Nina Fuchs, Moran Azulay</span><span class="commaView"> , </span><span class="dateView"> 13:51, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bjqgqprc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/05/11/B1Zc1SVF8q/B1Zc1SVF8q_0_0_1559_877_0_medium.jpg" width="110" height="62" alt="זירת האירוע" aria-hidden="false" title="Shireen Abu Akleh killed while covering an IDF raid in the Jenin Refugee camp last May  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bjqgqprc5" style="color:#000000"> IDF bolsters investigative team probing Abu Akleh killing  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bjqgqprc5" style="color:#000000"> Military to deploy more intelligence officers and use satellite images to present what it  says will show deployment of troops and locations of Palestinian militants during fatal exchange of fire; says ballistic examination still needed for definite conclusions </a></div><div class="moreDetails"><span class="author">Yoav Zitun</span><span class="commaView"> , </span><span class="dateView"> 10:38, 06.26.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/syh2zgmc5"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2021/05/23/B1nHePDF00/B1nHePDF00_199_1003_1773_998_0_medium.jpg" width="110" height="62" alt="UNRWA delivers  food to Gaza residents" aria-hidden="false" title="UNRWA delivers  food to Gaza residents (Photo: AP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/syh2zgmc5" style="color:#000000"> UNRWA teachers incite Palestinians to murder Jews, UN Watch says </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/syh2zgmc5" style="color:#000000"> Geneva-based NGO says 20 new cases of employees who incite antisemitism, terror against Jews have been exposed; adds UNRWA - which is funded by West - fails to fire teachers despite evidence  </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 22:34, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/skuwq4fc9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/HJEav1xfc9/HJEav1xfc9_0_192_3000_1688_0_medium.jpg" width="110" height="62" alt="שר החוץ יאיר לפיד נפגש עם שר החוץ של טורקיה מבלוט צ&#x27;בושולו ב אנקרה" aria-hidden="false" title="Yair Lapid in Ankara on Thursday  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/skuwq4fc9" style="color:#000000"> Lapid says hopes travel alert to Turkey will be lifted soon  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/skuwq4fc9" style="color:#000000"> FM says warning will be lifted when risk to safety of Israelis visiting Istanbul is removed; adds countries opt to advance relations gradually before returning ambassadors to posts  </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 21:47, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/ryu4s11fqc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/rJ00n6lG5q/rJ00n6lG5q_266_186_846_476_0_medium.jpg" width="110" height="62" alt="נשיא המדינה יצחק הרצוג בטקס סיום קורס טיס בבסיס חצרים" aria-hidden="false" title="President Isaac Herzog  (Photo: The IDF Spokesperson&#x27;s Unit) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/ryu4s11fqc" style="color:#000000"> Herzog says Israel is free to ensure its security interests </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/ryu4s11fqc" style="color:#000000"> President addresses Tehran&#x27;s attempts to harm Israelis in Turkey, says Iran sends its long arms of terror into Israel, and to other countries; warns Israel can reach enemies wherever, whenever, and in any way it chooses  </a></div><div class="moreDetails"><span class="author">Korin Elbaz Alush‎</span><span class="commaView"> , </span><span class="dateView"> 20:07, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/bj0qqpwcc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/SkL1nVtZ99/SkL1nVtZ99_0_0_1600_1066_0_medium.jpg" width="110" height="62" alt="דימיטר טזאנצ&#x27;ב" aria-hidden="false" title="EU Ambassador Dimiter Tzanchev  (Photo: Kobe Koanx) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/bj0qqpwcc" style="color:#000000"> EU envoy says Israel can replace Russian gas supply  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/bj0qqpwcc" style="color:#000000"> Ambassador Dimiter Tzantchev says EU looking for alternative sources of energy and cooperation with Israel could be long-term and beneficial to all; says EU and Israel in agreement in need to prevent a nuclear Iran  </a></div><div class="moreDetails"><span class="author">Alexandra Lukash</span><span class="commaView"> , </span><span class="dateView"> 19:54, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h1lbvjg5c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/ryFdGa115q/ryFdGa115q_0_78_3000_1689_0_medium.jpg" width="110" height="62" alt="זלנסקי נואם בפני האוניברסיטה העברית" aria-hidden="false" title="Ukrainian President Volodymyr Zelensky speaks to the Hebrew University of Jerusalem  (Photo: Amit Shabi) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h1lbvjg5c" style="color:#000000"> Zelensky says Israel not doing enough to support Ukraine </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h1lbvjg5c" style="color:#000000"> Ukraine president says tiny Luxemburg sends 15% of defense budget while Israeli leaders negligent; calls Russia a &#x27;terror state&#x27; targeting civilians, speaking to Hebrew U. audience via zoom  </a></div><div class="moreDetails"><span class="author">Einav Halabi, Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 17:51, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/sjrua1m55"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/rk6v1xzc5/rk6v1xzc5_0_111_3000_1688_0_medium.jpg" width="110" height="62" alt="שר החוץ יאיר לפיד נפגש עם שר החוץ של טורקיה מבלוט צ&#x27;בושולו ב אנקרה" aria-hidden="false" title="Yair Lapid and Mevlut Cavusoglu in Ankara on Thursday  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/sjrua1m55" style="color:#000000"> Turkey, Israel FMs say countries working together to foil Iran terror plot   </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/sjrua1m55" style="color:#000000"> After their meeting in Ankara, ministers tell reporters diplomatic relations strained for years, now on the mend; Lapid thanks hosts for helping foil the Iranian plot but says effort still underway  </a></div><div class="moreDetails"><span class="author">Agencies, Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 17:03, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/byv0vcw55"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/23/S1dpmTW9c/S1dpmTW9c_0_0_850_479_0_medium.jpg" width="110" height="62" alt="כוחות ביטחון טורקיים באיסטנבול" aria-hidden="false" title="Turkish security forces; Soul Hotel in Istanbul where members of the Iranian cell were captured  (Photo: AFP) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/byv0vcw55" style="color:#000000"> Turkey reportedly nabs Iran cell plotting to harm Israelis </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/byv0vcw55" style="color:#000000"> Turkish media says Iranian operatives monitored Israeli tourists, including former Israeli ambassador and wife, for some time ahead of planned shooting-abduction attack; powerful Iran intel chief dismissed after reports broke out </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 15:59, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/ry6eopb9c"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/03/28/SJLermy75/SJLermy75_0_101_1024_577_0_medium.jpg" width="110" height="62" alt="פסגת הנגב  " aria-hidden="false" title="Top diplomats from UAE, Egypt, Israel, U.S., Morocco and Bahrain at Negev Summit in southern Israel  (Photo: EPA) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/ry6eopb9c" style="color:#000000"> U.S. hints at Arab progress with Israel during Biden trip </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/ry6eopb9c" style="color:#000000"> Washington&#x27;s top diplomat for Middle East says Biden administration encouraging greater cooperation between Israel and the Arab nations with which it has relations </a></div><div class="moreDetails"><span class="author">AFP</span><span class="commaView"> , </span><span class="dateView"> 14:33, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/byhpb2w5q"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/21/one1608566/one1608566_0_0_800_444_0_medium.jpg" width="110" height="62" alt="U.S. President Joe Biden " aria-hidden="false" title="U.S. President Joe Biden  (Photo: Reuters) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/byhpb2w5q" style="color:#000000"> Iran demands U.S. pays compensation for slain Iranian nuclear scientists </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/byhpb2w5q" style="color:#000000"> Largely symbolic ruling underscores escalating tensions between Tehran and the West over rapidly advancing nuclear program, with negotiations to restore tattered atomic accord at standstill </a></div><div class="moreDetails"><span class="author">Associated Press</span><span class="commaView"> , </span><span class="dateView"> 13:54, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hjisbi11cc"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2016/08/29/7231088/7231088_0_94_900_507_0_medium.jpg" width="110" height="62" alt="The Israeli Embassy in Kyiv " aria-hidden="false" title="The Israeli Embassy in Kyiv  (Photo: Ministry of Internal Affairs of Ukraine) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hjisbi11cc" style="color:#000000"> Israeli embassy in Kyiv reopens for first time since Russian invasion </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hjisbi11cc" style="color:#000000"> Israeli diplomats return to Ukrainian capital more than four months after fleeing; &#x27;Israeli diplomatic presence in Kyiv is very important to us and is another sign of Israel&#x27;s support of Ukraine,&#x27; envoy says </a></div><div class="moreDetails"><span class="author">Itamar Eichner</span><span class="commaView"> , </span><span class="dateView"> 12:03, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/h1q08k1195"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2016/03/28/6906309/6906309_0_65_4288_2414_0_medium.jpg" width="110" height="62" alt="Pro-Palestinian protesters calling to boycott Israel, in London, England, in 2014 " aria-hidden="false" title="Pro-Palestinian protesters calling to boycott Israel, in London, England, in 2014  (Photo: citizenside.com) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/h1q08k1195" style="color:#000000"> Appeals court upholds Arkansas&#x27; Israel boycott pledge law </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/h1q08k1195" style="color:#000000"> Judges reverse decision that found legislation to be unconstitutional, saying that requiring government contractors to pledge to avoid boycotting Jewish state was not in violation of First Amendment </a></div><div class="moreDetails"><span class="author">Associated Press</span><span class="commaView"> , </span><span class="dateView"> 09:37, 06.23.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/hkhyn3e55"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/Hk1148COgc5/Hk1148COgc5_0_0_1600_1052_0_medium.jpg" width="110" height="62" alt="ראש הממשלה נפתלי בנט בביקור בעוטף עזה" aria-hidden="false" title="Prime Minister Naftali Bennet during his visit  (Photo: Haim Tzach) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/hkhyn3e55" style="color:#000000"> Bennett warns Gaza terror groups of exploiting Israel&#x27;s political turmoil </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/hkhyn3e55" style="color:#000000"> Making his last visit to southern border before he is set to step down from office, PM says past year has been &#x27;the quietest for residents of the Gaza border in 15 years&#x27; </a></div><div class="moreDetails"><span class="author">Matan Tzuri</span><span class="commaView"> , </span><span class="dateView"> 21:49, 06.22.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rjpjeqxc9"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/SkIRtPBg99/SkIRtPBg99_0_133_1280_721_0_medium.jpg" width="110" height="62" alt="יאיר לפיד  בכנס אלי הורוביץ" aria-hidden="false" title="Foreign Minister Yair Lapid  (Photo: Alex Kolomoiski) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rjpjeqxc9" style="color:#000000"> Lapid warns of far-right Netanyahu allies as Israel races to elections </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rjpjeqxc9" style="color:#000000"> Foreign minister argues Itamar Ben Gvir is more powerful than Netanyahu and is being used by the Likud leader to escape justice in his ongoing corruption trial </a></div><div class="moreDetails"><span class="author">Nina Fox</span><span class="commaView"> , </span><span class="dateView"> 19:38, 06.22.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/rykkoklqq"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/r1Guqug9c/r1Guqug9c_183_103_922_519_0_medium.jpg" width="110" height="62" alt="נפתלי בנט ויאיר לפיד" aria-hidden="false" title="Naftali Bennett, Yair Lapid  (Photo: Alex Kolomoisky) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/rykkoklqq" style="color:#000000"> Bennett says will not back bill to block Netanyahu in next elections </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/rykkoklqq" style="color:#000000"> Bennett says he believes determining who gets to run for Knesset and who doesn&#x27;t should be left to voters to decide at the ballot box, but adds will not fight legislation </a></div><div class="moreDetails"><span class="author">Moran Azulay, Alexandra Lukash</span><span class="commaView"> , </span><span class="dateView"> 15:42, 06.22.22  </span></div></div></div><div class="slotView "><span>  <a href="https://www.ynetnews.com/article/s1xq3hg59"><div class="imageView"><img src="https://ynet-images1.yit.co.il/picserver5/crop_images/2022/06/22/rJj3Wrg59/rJj3Wrg59_0_0_850_479_0_medium.jpg" width="110" height="62" alt="בני גנץ" aria-hidden="false" title="Benjamin Netanyahu, Gali Baharav-Miara, and Benny Gantz  (Photo: Yoav Dudkevitch, Ministry of Justice spokesperson) "/></div></a></span><div class="textDiv"><div class="slotTitle" style="color:#000000"><a href="https://www.ynetnews.com/article/s1xq3hg59" style="color:#000000"> AG and Gantz at odds over appointment of new military chief  </a></div><div style="color:#000000" class="slotSubTitle"><a href="https://www.ynetnews.com/article/s1xq3hg59" style="color:#000000"> Defense minister says he wants to avoid a crisis in the IDF like the one experienced by the police when because of political stalemate, no commissioner was named for 2 years  </a></div><div class="moreDetails"><span class="author">Tova Zimuki, Nina Fuks</span><span class="commaView"> , </span><span class="dateView"> 14:17, 06.22.22  </span></div></div></div></div></div><div class="slotMore"><span style="color:#000000" id=""></span></div></div></div></div></div><div tabindex="0" class="layoutItem banner" style="position:absolute;top:126px;left:680px;height:250px;width:300px"><span class="no-print no-small-vp"><div style="height:100%"><div id="ads.300x250.1" data-banner="ads.300x250.1, 300x250"></div></div></span></div><div tabindex="0" class="layoutItem iframe-script" style="position:absolute;top:391px;left:680px;height:210px;width:300px"><span class="no-print no-small-vp"><div class="iframeComponenta"><iframe scrolling="no" style="border:0;width:100%;height:210px;overflow:hidden;pointer-events:auto" src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/Ynetnews-129653250402500?fref=ts&amp;width=300&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true"></iframe></div></span></div><div tabindex="0" class="layoutItem banner" style="position:absolute;top:616px;left:680px;height:250px;width:300px"><span class="no-print no-small-vp"><div style="height:100%"><div id="ads.300x250.2" data-banner="ads.300x250.2, 300x250"></div></div></span></div><div tabindex="0" class="layoutItem RightCategoryTaboola-ynetnews" style="position:absolute;top:886px;left:680px;height:300px;width:300px"><span class="no-print no-small-vp"><span><span id="SkmSje11bJs5"><div id="taboola-right-rail-thumbnails-short"></div></span><script>window.YITSiteWidgets.push(['SkmSje11bJs5','TaboolaComponenta',{"mode":"thumbnails-rr-1x2","container":"taboola-right-rail-thumbnails-short","target_type":"mix","placement":"Right Rail Thumbnails Short"}]);</script></span></span></div></div><div class="layoutContainer" style="position:relative;min-height:0;padding-bottom:0;width:980px;margin:0 auto;box-sizing:border-box"><div tabindex="0" class="layoutItem CategoryTaboola-ynetnews" style="position:relative;top:0;left:0;margin-bottom:20px"><span class="no-print"><span><span id="HyVSoebbJi5"><div id="taboola-below-main-column-thumbnails"></div></span><script>window.YITSiteWidgets.push(['HyVSoebbJi5','TaboolaComponenta',{"mode":"alternating-thumbnails-a","container":"taboola-below-main-column-thumbnails","target_type":"mix","placement":"Below Main Column Thumbnails"}]);</script></span></span></div></div><div class="layoutContainer" style="position:relative;min-height:0;padding-bottom:0;width:980px;margin:0 auto;box-sizing:border-box"><div tabindex="0" class="layoutItem ynet-news-footer" style="position:relative;top:0;left:0;margin-bottom:0"><span class="no-small-vp"><div style="height:100%"><div class="YnetNewsFooter"><ul><li class="accessibility"><img src="//www.ynetnews.com/images/white_icon.png"/><div id="INDbtnWrap"><a id="INDmenu-btn" accessKey="m" aria-labelledby="INDbtnTooltip" role="button">Accessibility</a></div></li><span>|</span><li><a href="/articles/0,7340,L-3124381,00.html">RSS</a></li><span>|</span><li><a href="/articles/0,7340,L-3028645,00.html" title="About">About</a></li><span>|</span><li><a href="/articles/0,7340,L-4522700,00.html" title="Contact us">Contact us</a></li><span>|</span><li><a href="/articles/0,7340,L-3048313,00.html" title="Privacy Policy">Privacy Policy</a></li><span>|</span><li><a href="/articles/0,7340,L-3048342,00.html" title="Terms of use">Terms of use</a></li><span>|</span><li><a href="/articles/0,7340,L-3037379,00.html" title="Advertise with us">Advertise with us</a></li><span>|</span><li><a href="/home/0,7340,L-4423,00.html" title="Site Map">Site Map</a></li><span>|</span><li><a href="//magazine.ynetnews.com/publisher-common-id-opt-out/" title="Third Party Advertisments">Third Party Advertisments</a></li></ul><p class="creditArea"><span>Site developed by  </span><a href="//www.yit.co.il" title="yit"><img src="/images/yit_logo_footer.png" title="yit" role="logo"/></a><span>Copyright © Yedioth Internet. All rights reserved.</span></p></div></div></span></div></div></div><div><script type="text/javascript">(function scriptFunc() {
+    window["controlTickerAnimation"] = () => {
+        document.body.setAttribute('id', 'INDdummy');
+        var node = document.createElement("button");
+        var ticker = document.getElementsByClassName("animationDiv")[0];
+        node.setAttribute("class", "playTicker");
+        node.setAttribute("id", "tickerControl");
+        var tickerTab = document.getElementsByClassName("tickerTab")[0];
+        if (tickerTab !== undefined && ticker !== undefined) {
+            tickerTab.appendChild(node);
+            const toggleTickerControlButton = () => {
+                if (node.classList.contains('playTicker')) {
+                    node.classList.remove('playTicker');
+                    ticker.classList.remove("pause");
+                }
+                else {
+                    node.classList.add('playTicker');
+                    ticker.classList.add("pause");
+                }
+            };
+            node.addEventListener('click', toggleTickerControlButton);
+            ticker.classList.add("pause");
+        }
+    };
+})()</script></div></div></div></div>
+            <script>
+                var isAbroad = false;
+            </script>
+        
+                <script type="text/javascript">
+                    window._taboola = window._taboola || [];
+                    _taboola.push({flush: true});
+                </script>
+            
+            <script language=javascript>function hpbClickTrans(url,type,stat_type)
+            {document.ClickReportForm.the_url.value=url;document.ClickReportForm.type_id.value=type;
+            document.ClickReportForm.stat_type_id.value=stat_type;document.ClickReportForm.submit()}</script>
+            <form style='display:none' name='ClickReportForm' method='post' action='https://stats.ynet.co.il'
+            target='HCCfrm'><input type='hidden' name='the_url'><input type='hidden' name='StatusId' value='144'>
+            <input type='hidden' name='type_id'><input type='hidden' name='stat_type_id'></form>
+            <iframe style='display:none' name='HCCfrm' height=0 width=0 frameborder=0></iframe>
+        <script>
+ let frequencyLogic = JSON.parse(localStorage.getItem("frequencyLogic")) !== null ? JSON.parse(localStorage.getItem("frequencyLogic")) : { datetime: Date.now(), displayedlast: '', };
+      let millis = Date.now() - frequencyLogic.datetime;
+      let IsUnique = JSON.parse(localStorage.getItem("frequencyLogic")) === null || JSON.parse(localStorage.getItem("frequencyLogic")) !== null && (Math.floor(millis / 1000) > 300);
+
+      // GPT ad slots
+      var interstitialSlot;
+      var platform = (window.innerWidth >= "767") ? 'desktop' :  'mobileweb';
+
+      googletag.cmd.push(function() {
+    
+      
+        interstitialSlot = googletag.defineOutOfPageSlot(
+            '/6870/ynetnews/' + platform + '/interstitial.adx',
+            googletag.enums.OutOfPageFormat.INTERSTITIAL);
+
+        if (interstitialSlot) {
+          interstitialSlot.addService(googletag.pubads());
+          console.log("Interstitial is loading ...");
+
+          googletag.pubads().addEventListener('slotOnload', function(event) {
+            if (interstitialSlot === event.slot) {                    
+              console.log('Interstitial is loaded.');
+              frequencyLogic.datetime = Date.now();
+              frequencyLogic.displayedlast = '/6870/ynetnews/' + platform + '/interstitial.adx';
+              localStorage.setItem('frequencyLogic', JSON.stringify(frequencyLogic));
+            }
+          });     
+
+googletag.pubads().addEventListener('slotVisibilityChanged',
+              function(event) {
+                var slot = event.slot;
+                console.group('Visibility of slot', slot.getSlotElementId(), 'changed.');
+                // Log details of the event.
+                console.log('Visible area:', event.inViewPercentage + '%');
+                console.groupEnd(); 
+                if (slot === interstitialSlot) {
+                  document.getElementsByTagName("body")[0].style.overflow = "hidden";
+                }
+            }
+          );
+
+       
+        }
+
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script> <style>body {overflow: unset;}</style><script>
+setTimeout(function() {
+    window.$(".mainNav").on("click", "span", function() {
+        window.dataLayer.push({
+            event: "Navigation_Events",
+            Category: "Navigation Bar",
+            Action: "Header",
+            Label: window.$(this).text()
+        });
+    });
+    window.$(".slotView .moreDetails").on("mouseover", "div", function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "News Flash",
+            Action: "Hover",
+            Label: window.$(this).text()
+        });
+    });
+    window.$(".linksGroups").on("click","span", function() {
+        window.dataLayer.push({
+            event: "Navigation_Events",
+            Category: "Side Menu",
+            Action: "Content",
+            Label: window.$(this).text()
+        });
+    });
+   window.$(".TopStory1280Componenta .slotView .textDiv").on("click",".slotTitle", function() {
+     var title=window.$(".TopStory1280Componenta .slotTitle").text();  
+     window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Top Story Title",
+            Label: title
+        });
+    });
+    window.$(".TopStory1280Componenta .slotView .textDiv").on("click",".slotSubTitle", function() {
+         var title=window.$(".TopStory1280Componenta .slotTitle").text();    
+         window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Top Story Text",
+            Label: title
+        });
+    });
+    window.$(".TopStory1280Componenta .mediaArea").on("click","a", function() {
+        var title=window.$(".TopStory1280Componenta .slotTitle").text();
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Top Story Image",
+            Label: title
+        });
+    });
+    window.$(".componentaTab .rightTitleText").on("click", function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on ${window.$(this).text()} Tab`
+        });
+    });
+    window.$(".componentaTab .leftTitleText").on("click", function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on View More ${window.$(this).text()}`
+        });
+    });
+    window.$(".multiArticleTopTab .rightTitleText").on("click", function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on ${window.$(this).text()} Tab`
+        });
+    });
+    window.$(".multiArticleTopTab .leftTitleText").on("click", function() {     
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on View More ${window.$(this).text()}`
+        });
+    });
+    window.$(".YnetMultiStripRowsComponenta .slotView .mediaArea").on("click","a", function() {
+        var currEl=this.closest(".slotView").parentElement.parentElement
+        var parentChildrenList= currEl.parentNode.children;
+        var index= Array.prototype.indexOf.call(parentChildrenList, currEl)+1;
+        var strip_type = 'Image';
+        var mediaAreaChildren=this.closest(".mediaArea").children;
+        var videoIconEl=[...mediaAreaChildren].filter(childEl=>childEl.classList.contains("videoIcon"))[0];
+        if (videoIconEl) {
+            strip_type = 'Video';
+       }
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on Strip ${index} ${strip_type}`,
+            Label: window.$(this).closest(".slotView").find("span:first-child").text()
+        });
+    });
+    window.$(".YnetMultiStripRowsComponenta .slotView").on("click",".textDiv", function() {
+        var parentChildren= this.closest(".YnetMultiStripRowsComponenta").children;
+        var currEl=this.closest(".slotView").parentElement.parentElement
+        var index= Array.prototype.indexOf.call(parentChildren, currEl)+1;
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Strip ${index} Title`,
+            Label:this.querySelector("a > .slotTitle > span").innerText
+        });
+    });
+    window.$("#MsBtn").on("click", function() {
+        window.dataLayer.push({
+            event: "Navigation_Events",
+            Category: "Side Menu",
+            Action: "Search",
+            Label: "Click on Search Icon"
+        });
+    });
+    window.$(".redMail, .redMailText").parent().on("click", function() {
+         window.dataLayer.push({
+            event: "Navigation_Events",
+            Category: "Navigation Bar",
+            Action: "Header",
+            Label: "מייל אדום"
+        });
+    });
+    window.$(".flash, .flashText").parent().on("click", function() {
+        window.dataLayer.push({
+            event: "Navigation_Events",
+            Category: "Navigation Bar",
+            Action: "Header",
+            Label: "מבזקים"
+        });
+    });
+    window.$(".loginBtn").on("click", function() {
+        window.dataLayer.push({
+            event: "GA_Events",
+            Category: "Ynet+- Login",
+            Action: "Login Source",
+            Label: "Ynet HP - Header"
+        });
+    });
+    window.$(".MultiImages1280Componenta .slotsContent .slotView").on("click",".imageArea",function() {
+        var slotTextAreaEl=[...this.parentElement.children].filter(childEl=>childEl.classList.contains("slotTextArea"))[0];
+        var actionType=(this.querySelector(".videoIcon"))? "Article Video": "Article Image";
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action:`Click on ${actionType}`,
+            Label: slotTextAreaEl.querySelector(".slotTitle > a > div").innerText
+        });
+    });
+    window.$(".MultiImages1280Componenta .slotsContent .slotView").on("click",".slotTitle > a",function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Article Title",
+            Label: this.querySelector("div").innerText
+        });
+    });
+    window.$(".MultiArticleComponenta1280 .slotsContent .slotView").on("click",".mediaArea",function() {
+        var actionType=(this.querySelector(".videoIcon"))? "Article Video": "Article Image"
+        var slotTitleEl=[...this.parentElement.children].filter(childEl=>childEl.classList.contains("slotTitle"))[0];
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on ${actionType}`,
+            Label: slotTitleEl.querySelector("a").innerText 
+        });
+    });
+    window.$(".MultiArticleComponenta1280 .slotsContent .slotView").on("click",".slotTitle",function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Article Title",
+            Label: this.querySelector("a").innerText 
+        });
+    });
+    window.$(".MultiArticleRowsComponenta .slotsContent .slotView").on("click",".slotTitle",function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Article Title",
+            Label: this.querySelector("a").innerText 
+        });
+    });
+    window.$(".MultiArticleTopComponenta1280 .slotsContent .slotView").on("click",".slotTitle",function() {
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: "Click on Article Title",
+            Label: this.querySelector("a").innerText 
+        });
+    });
+    window.$(".MultiArticleTopComponenta1280 .slotsContent .slotView").on("click",".mediaArea",function() {
+        var actionType=(this.querySelector(".videoIcon"))? "Article Video": "Article Image"
+        var slotTitleEl=[...this.parentElement.children].filter(childEl=>childEl.classList.contains("slotTitle"))[0];
+        window.dataLayer.push({
+            event: "HP_Events",
+            Category: "Home Page CTR",
+            Action: `Click on ${actionType}`,
+            Label: slotTitleEl.querySelector("a").innerText 
+        });
+    });
+}, 3000);
+</script><script>
+setTimeout(function() {
+let options = {};
+let firstTime = true;
+let observer = new IntersectionObserver(
+    function handleTaboola(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting && firstTime) {
+                firstTime = false;
+                window.dataLayer.push({
+                    'taboolaFeedDisplay': '1',
+                    'event': 'taboola_event',
+                    'Category': 'Taboola',
+                    'Action': 'Endless Feed',
+                    'Label': 'Feed Displayed'
+                });
+                function pushVideo() {
+                    let video_container = document.querySelector('._cm-video-ad._cm-ad-feed-manager');
+                    if (video_container) {
+                        window.dataLayer.push({
+                            'taboolaFeedDisplay': '1',
+                            'event': 'taboola_event',
+                            'Category': 'Taboola',
+                            'Action': 'Endless Feed',
+                            'Label': 'Video Displayed'
+                        });
+                    }
+                }
+                setTimeout(pushVideo, 1000);
+            }
+        });
+    }, options);
+taboolaElementCategory = document.querySelector("#taboola-below-home-page-nd");
+taboolaElementArticle = document.querySelector("#taboola-below-article-thumbnails-wide-nd");
+if (taboolaElementCategory) {
+    observer.observe(taboolaElementCategory);
+} else if (taboolaElementArticle) {
+    observer.observe(taboolaElementArticle);
+}
+}, 1000);
+</script><script>
+setTimeout(function() {
+    window.$(".promoLabel").on("click", function() {
+        window.dataLayer.push({
+            event: "GA_Events",
+            Category: "Ynet+ - Registration",
+            Action: "Registration Source",
+            Label: "Ynet - Header"
+        });
+    });
+    window.$(".promButton").on("click", function() {
+        window.dataLayer.push({
+            event: "GA_Events",
+            Category: "Ynet+ - Registration",
+            Action: "Registration Source",
+            Label: "Ynet - Strip"
+        });
+    });
+}, 3000);
+</script>
+        <script>
+            function getCookie(cname) {
+                var name = cname + "=";
+                var decodedCookie = decodeURIComponent(document.cookie);
+                var ca = decodedCookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+            
+            var rand_num = Date.now()%100
+            var expires = new Date(Date.now() + 31536000000);
+            
+            if (!getCookie("ab-checking")){
+                document.cookie = "ab-checking=" + rand_num +"; expires=" + expires + "; path=/";
+            }
+            if (!getCookie("ab-testing") && getCookie("ab-checking") <= 0) { 
+                document.cookie = "ab-testing=true; expires=" + expires + "; path=/";
+            }
+        
+        </script>
+</body>
+</html>
